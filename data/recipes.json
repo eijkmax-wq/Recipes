@@ -752,16 +752,16 @@
         "hoeveelheid": "4 tenen"
       },
       {
-        "naam": "verse tijm",
-        "hoeveelheid": "1 takje"
+        "naam": "gedroogde tijm",
+        "hoeveelheid": "1 takje vers of ½ tl gedroogd"
       },
       {
-        "naam": "verse rozemarijn",
-        "hoeveelheid": "1 takje"
+        "naam": "gedroogde rozemarijn",
+        "hoeveelheid": "1 takje vers of ½ tl gedroogd"
       },
       {
-        "naam": "verse salie",
-        "hoeveelheid": "1 takje"
+        "naam": "gedroogde salie",
+        "hoeveelheid": "1 takje vers of ½ tl gedroogd"
       },
       {
         "naam": "bouillon",
@@ -1002,5 +1002,394 @@
       "Breng aan de kook, zet het vuur laag en laat ca. 35 min koken tot de rijst gaar is en de bouillon verdampt. Voeg 2 min voor het einde eventueel de doperwten toe. Breng op smaak met zout en peper."
     ],
     "notities": "Variatie: garnalen, varkensvlees of groenten zoals bonen of courgette."
+  },
+  {
+    "id": "tom-kha-kai",
+    "titel": "Tom kha kai",
+    "bron": "https://hot-thai-kitchen.com/tom-ka-gai/",
+    "tijd": 35,
+    "porties": 3,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "kippenbouillon",
+        "hoeveelheid": "480 ml (ongezouten)"
+      },
+      {
+        "naam": "kokosmelk",
+        "hoeveelheid": "360 ml"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "kippendijen",
+        "hoeveelheid": "450 g"
+      },
+      {
+        "naam": "citroengras",
+        "hoeveelheid": "1 stengel"
+      },
+      {
+        "naam": "galanga",
+        "hoeveelheid": "12 dunne plakjes"
+      },
+      {
+        "naam": "kaffirlimoenblaadjes",
+        "hoeveelheid": "5"
+      },
+      {
+        "naam": "Thaise pepers",
+        "hoeveelheid": "3–4"
+      },
+      {
+        "naam": "vissaus",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "1 tl (liefst palmsuiker)"
+      },
+      {
+        "naam": "oesterzwammen",
+        "hoeveelheid": "155 g"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "2½ el sap"
+      },
+      {
+        "naam": "lente-ui",
+        "hoeveelheid": "om te garneren",
+        "optioneel": true
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "om te garneren",
+        "optioneel": true
+      },
+      {
+        "naam": "jasmijnrijst",
+        "hoeveelheid": "om erbij te serveren",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Breng de bouillon aan de kook, voeg zout en de kip in hapklare stukjes toe en laat 15–20 min zachtjes trekken tot de kip mals is.",
+      "Voeg kokosmelk, gekneusd citroengras (onderste helft, in stukken), galanga, gescheurde limoenblaadjes, gekneusde pepers, de helft van de vissaus en de suiker toe. 5 min laten trekken.",
+      "Voeg de oesterzwammen toe en kook 1–2 min tot gaar.",
+      "Proef en voeg zo nodig meer vissaus toe. Vuur uit, roer 2 el limoensap erdoor en proef opnieuw.",
+      "Garneer met lente-ui en/of koriander en serveer met jasmijnrijst. Citroengras, galanga en limoenblaadjes eet je niet mee."
+    ],
+    "notities": "Aantal porties niet vermeld in het origineel; ca. 3."
+  },
+  {
+    "id": "franse-uiensoep",
+    "titel": "Franse uiensoep",
+    "bron": "https://miljuschka.nl/uiensoep-recept/",
+    "tijd": 80,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "ui",
+        "hoeveelheid": "1,5 kg"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 bol"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "75 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "bloem",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "runderbouillon",
+        "hoeveelheid": "2 l"
+      },
+      {
+        "naam": "Noilly Prat",
+        "hoeveelheid": "1–2 el"
+      },
+      {
+        "naam": "cognac",
+        "hoeveelheid": "1–2 el"
+      },
+      {
+        "naam": "gruyère",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "stokbrood",
+        "hoeveelheid": "1 oud"
+      },
+      {
+        "naam": "gedroogde tijm",
+        "hoeveelheid": "2 takjes, ter garnering",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Smelt de boter in een grote soeppan en laat de uien in plakken met zout en peper ca. 10 min zacht worden.",
+      "Bak de knoflook in plakjes kort mee.",
+      "Bestrooi met suiker en laat ca. 30 min op laag vuur karamelliseren.",
+      "Voeg de bloem toe en bak 5 min mee. Schenk de warme bouillon erbij, dan Noilly Prat en cognac.",
+      "Laat ca. 1 uur koken en breng op smaak.",
+      "Grill op 200 °C. Schep de soep in ovenvaste kommen, leg er een plak stokbrood op, bestrooi met gruyère en gratineer ca. 5 min. Garneer met tijm."
+    ],
+    "notities": "Vegetarisch te maken met groentebouillon (zonder runderbouillon)."
+  },
+  {
+    "id": "slowcooker-honing-sesam-kip",
+    "titel": "Slowcooker honing-sesamkip",
+    "bron": "https://www.lecremedelacrumb.com/slow-cooker-honey-sesame-chicken/",
+    "tijd": 190,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "kipfilet",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "maizena",
+        "hoeveelheid": "ca. 4 el + 2 el"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "sojasaus",
+        "hoeveelheid": "90 ml (zoutarm)"
+      },
+      {
+        "naam": "sesamolie",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "honing",
+        "hoeveelheid": "6 el"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tl, fijngehakt"
+      },
+      {
+        "naam": "ketchup",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "rijstazijn",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "sesamzaad",
+        "hoeveelheid": "om te bestrooien",
+        "optioneel": true
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "½ tl",
+        "optioneel": true
+      },
+      {
+        "naam": "rijst",
+        "hoeveelheid": "om erbij te serveren"
+      }
+    ],
+    "bereiding": [
+      "Snijd de kip in stukken van 5 cm en schud ze in een zak met de maizena tot ze bedekt zijn.",
+      "Bak de kip 1–2 min in de olie op middelhoog vuur, alleen om de buitenkant te kleuren (niet gaar). Doe in de ingevette slowcooker.",
+      "Klop 120 ml koud water met 2 el maizena glad. Klop sojasaus, sesamolie, honing, knoflook, ketchup en rijstazijn erdoor.",
+      "Giet de saus over de kip en gaar 3 uur op de lage stand.",
+      "Serveer op rijst, bestrooid met sesamzaad."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "romige-chorizo-pasta",
+    "titel": "Romige chorizo pasta",
+    "bron": "https://beatthebudget.com/recipe/the-best-creamy-chorizo-pasta/",
+    "tijd": 35,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "chorizo",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "rigatoni",
+        "hoeveelheid": "400 g"
+      },
+      {
+        "naam": "champignons",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "boerenkool",
+        "hoeveelheid": "100 g (of spinazie)"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "gedroogde tijm",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "snufje",
+        "optioneel": true
+      },
+      {
+        "naam": "room",
+        "hoeveelheid": "200 ml"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "50 g + extra"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "½ (sap)"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "handje",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Oven op 200 °C. Scheur de chorizo in kleine stukjes.",
+      "Bak de champignons in plakjes in de helft van de olie op hoog vuur 2 × 3 min tot bruin; haal uit de pan en zout ze.",
+      "Zet het vuur laag en bak ui en chorizo ca. 5 min tot het vet eruit komt.",
+      "Voeg tomatenpuree, knoflook, tijm en chilivlokken toe. Kook intussen de pasta 2 min korter dan de verpakking aangeeft.",
+      "Hussel de boerenkool met de rest van de olie, zout en peper en rooster 7 min in de oven.",
+      "Als de tomatenpuree donker is: ca. 4 soeplepels pastawater erbij, dan room, parmezaan en citroensap.",
+      "Voeg pasta en champignons toe en laat al roerend indikken tot de pasta gaar is (zo nodig extra pastawater). Serveer met boerenkool, basilicum en extra parmezaan."
+    ],
+    "notities": "Het origineel geeft geen hoeveelheden; deze zijn geschat voor 4 personen."
+  },
+  {
+    "id": "butter-chicken-20-min",
+    "titel": "Butter chicken in 20 minuten",
+    "bron": "https://gimmedelicious.com/easy-20-minute-butter-chicken/",
+    "tijd": 20,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "1 tl vers, geraspt"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2–3 tenen"
+      },
+      {
+        "naam": "kipfilet",
+        "hoeveelheid": "680 g (2–3 stuks)"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "4 el"
+      },
+      {
+        "naam": "garam masala",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "chilipoeder",
+        "hoeveelheid": "1 tl (of paprikapoeder)"
+      },
+      {
+        "naam": "fenegriek",
+        "hoeveelheid": "1 tl",
+        "optioneel": true
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "¼ tl"
+      },
+      {
+        "naam": "room",
+        "hoeveelheid": "240 ml"
+      },
+      {
+        "naam": "basmatirijst",
+        "hoeveelheid": "om erbij te serveren"
+      },
+      {
+        "naam": "naan",
+        "hoeveelheid": "om erbij te serveren",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Bak de ui in olie en boter op middelhoog vuur 3–4 min goudbruin. Voeg gember en knoflook toe en bak 30 sec al roerend.",
+      "Voeg de kip in blokjes van 2 cm, tomatenpuree en alle specerijen toe en bak 5–6 min tot de kip gaar is.",
+      "Roer de room erdoor en laat 8–10 min zachtjes pruttelen.",
+      "Serveer met rijst en/of naan."
+    ],
+    "notities": "Lichter: halfvolle room of yoghurt in plaats van room."
   }
 ]
