@@ -24,7 +24,7 @@
 
       <div class="filters">
         <input id="zoek" type="search" placeholder="Zoek recept of ingrediënt…" autocomplete="off">
-        <div class="filterrij">
+        <div class="filterrij een">
           <label class="select">
             <span>Tijd</span>
             <select id="maxTijd">
@@ -32,15 +32,6 @@
               <option value="15">≤ 15 min</option>
               <option value="30">≤ 30 min</option>
               <option value="45">≤ 45 min</option>
-            </select>
-          </label>
-          <label class="select">
-            <span>Met wat ik heb</span>
-            <select id="thuisFilter">
-              <option value="">Maakt niet uit</option>
-              <option value="0">Alles in huis</option>
-              <option value="1">Mist max 1</option>
-              <option value="2">Mist max 2</option>
             </select>
           </label>
         </div>
@@ -51,16 +42,16 @@
       <ul id="lijst" class="kaarten"></ul>
     </section>
 
-    <!-- THUIS -->
-    <section id="view-thuis" class="view" hidden>
-      <p class="muted">Vink aan wat je in huis hebt. Basisdingen zoals zout en olie tellen niet mee.</p>
-      <form id="thuisForm" class="thuisform">
-        <input id="thuisInput" list="alleIngredienten" placeholder="Iets anders toevoegen…" autocomplete="off">
-        <button type="submit">+</button>
-      </form>
-      <datalist id="alleIngredienten"></datalist>
-      <div id="thuisLijst"></div>
-      <button id="thuisLeeg" class="linkknop">Alles uitvinken</button>
+    <!-- OPMAKEN -->
+    <section id="view-opmaken" class="view" hidden>
+      <p class="muted">Wat ligt er nog en moet op? Typ en kies uit de lijst.</p>
+      <div class="zoekvak">
+        <input id="restInput" placeholder="bv. courgette, feta…" autocomplete="off" autocapitalize="none" enterkeyhint="done">
+        <ul id="dropdown" class="dropdown" hidden></ul>
+      </div>
+      <div id="restChips" class="chips"></div>
+      <p id="restAantal" class="muted"></p>
+      <ul id="restLijst" class="kaarten"></ul>
     </section>
   </main>
 
@@ -74,7 +65,7 @@
 
   <nav class="tabs">
     <button data-view="recepten" class="actief">📖<span>Recepten</span></button>
-    <button data-view="thuis">🧺<span>Thuis</span></button>
+    <button data-view="opmaken">🧺<span>Opmaken</span></button>
   </nav>
 
   <script src="app.js"></script>

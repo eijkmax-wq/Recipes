@@ -76,3 +76,15 @@ input[type=search], .thuisform input { width: 100%; padding: 11px 14px; border-r
   font-size: 1.2rem; color: var(--zacht); }
 .tabs button span { font-size: .72rem; }
 .tabs button.actief { color: var(--accent); }
+
+/* opmaken */
+.filterrij.een { grid-template-columns: 1fr; }
+.zoekvak { position: relative; margin: 10px 0; }
+.zoekvak input { width: 100%; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--lijn); background: var(--kaart); }
+.dropdown { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 8; list-style: none; margin: 0; padding: 4px;
+  background: var(--kaart); border: 1px solid var(--lijn); border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.12); }
+.dropdown button { width: 100%; text-align: left; background: none; border: none; padding: 10px 10px; border-radius: 8px; cursor: pointer; }
+.dropdown button:active, .dropdown button:hover { background: var(--accent-zacht); }
+#restChips { margin-bottom: 8px; }
+.ingr li.kast span:first-child { color: var(--zacht); }
+.kastmelding { padding: 10px; font-size: .88rem; }

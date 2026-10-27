@@ -79,8 +79,7 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -104,8 +103,7 @@
     "ingredienten": [
       {
         "naam": "olijfolie",
-        "hoeveelheid": "2 el",
-        "basis": true
+        "hoeveelheid": "2 el"
       },
       {
         "naam": "ui",
@@ -141,8 +139,7 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -170,8 +167,7 @@
       },
       {
         "naam": "suiker",
-        "hoeveelheid": "40 g",
-        "basis": true
+        "hoeveelheid": "40 g"
       },
       {
         "naam": "knoflook",
@@ -195,8 +191,7 @@
       },
       {
         "naam": "zonnebloemolie",
-        "hoeveelheid": "80 ml",
-        "basis": true
+        "hoeveelheid": "80 ml"
       },
       {
         "naam": "sobanoedels",
@@ -225,8 +220,7 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -259,8 +253,7 @@
       },
       {
         "naam": "olijfolie",
-        "hoeveelheid": "75 ml",
-        "basis": true
+        "hoeveelheid": "75 ml"
       },
       {
         "naam": "orzo",
@@ -292,13 +285,11 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       },
       {
         "naam": "peper",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -323,8 +314,7 @@
     "ingredienten": [
       {
         "naam": "olijfolie",
-        "hoeveelheid": "75 ml",
-        "basis": true
+        "hoeveelheid": "75 ml"
       },
       {
         "naam": "knoflook",
@@ -336,8 +326,7 @@
       },
       {
         "naam": "suiker",
-        "hoeveelheid": "½ tl",
-        "basis": true
+        "hoeveelheid": "½ tl"
       },
       {
         "naam": "ancho-chili",
@@ -358,8 +347,7 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -386,8 +374,7 @@
       },
       {
         "naam": "olijfolie",
-        "hoeveelheid": "4 el",
-        "basis": true
+        "hoeveelheid": "4 el"
       },
       {
         "naam": "ui",
@@ -427,13 +414,11 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       },
       {
         "naam": "peper",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -462,18 +447,15 @@
       },
       {
         "naam": "suiker",
-        "hoeveelheid": "2 el",
-        "basis": true
+        "hoeveelheid": "2 el"
       },
       {
         "naam": "boter",
-        "hoeveelheid": "3 el",
-        "basis": true
+        "hoeveelheid": "3 el"
       },
       {
         "naam": "olijfolie",
-        "hoeveelheid": "3 el",
-        "basis": true
+        "hoeveelheid": "3 el"
       },
       {
         "naam": "knoflook",
@@ -497,13 +479,11 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       },
       {
         "naam": "peper",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -528,15 +508,14 @@
     "ingredienten": [
       {
         "naam": "zonnebloemolie",
-        "hoeveelheid": "150 ml",
-        "basis": true
+        "hoeveelheid": "150 ml"
       },
       {
         "naam": "courgette",
         "hoeveelheid": "3"
       },
       {
-        "naam": "rodewijnazijn",
+        "naam": "rode wijnazijn",
         "hoeveelheid": "1½ el"
       },
       {
@@ -553,8 +532,7 @@
       },
       {
         "naam": "olijfolie",
-        "hoeveelheid": "80 ml",
-        "basis": true
+        "hoeveelheid": "80 ml"
       },
       {
         "naam": "penne",
@@ -574,13 +552,11 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       },
       {
         "naam": "peper",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -605,8 +581,7 @@
     "ingredienten": [
       {
         "naam": "olijfolie",
-        "hoeveelheid": "5 el",
-        "basis": true
+        "hoeveelheid": "5 el"
       },
       {
         "naam": "knoflook",
@@ -651,8 +626,7 @@
       },
       {
         "naam": "suiker",
-        "hoeveelheid": "2 tl",
-        "basis": true
+        "hoeveelheid": "2 tl"
       },
       {
         "naam": "orecchiette",
@@ -664,13 +638,11 @@
       },
       {
         "naam": "zout",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       },
       {
         "naam": "peper",
-        "hoeveelheid": "naar smaak",
-        "basis": true
+        "hoeveelheid": "naar smaak"
       }
     ],
     "bereiding": [
@@ -680,5 +652,75 @@
       "Roer de rest van het peterseliemengsel erdoor, besprenkel met 2 el olie en serveer met de krokante kikkererwten en peper."
     ],
     "notities": "Vegetarische versie; het origineel gebruikt olijven (hier optioneel)."
+  },
+  {
+    "id": "portobellos-gedroogde-tomaat-taleggio",
+    "titel": "Gevulde portobello's met gedroogde tomaat en taleggio (Ottolenghi)",
+    "bron": "Ottolenghi, Plenty",
+    "tijd": 40,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "portobello's",
+        "hoeveelheid": "4 grote"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "6 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "bleekselderij",
+        "hoeveelheid": "1 stengel"
+      },
+      {
+        "naam": "zongedroogde tomaten",
+        "hoeveelheid": "ca. 200 g"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "40 g"
+      },
+      {
+        "naam": "dragon",
+        "hoeveelheid": "1 el",
+        "optioneel": true
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "4 el, gescheurd"
+      },
+      {
+        "naam": "taleggio",
+        "hoeveelheid": "100 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Oven op 175 °C. Haal de steeltjes uit de paddenstoelen (hak ze fijn voor de vulling). Leg de hoeden met de bolle kant naar beneden op bakpapier, besprenkel met olie, zout en peper en bak ca. 15 min tot ze zacht beginnen te worden.",
+      "Fruit intussen ui, gehakte steeltjes en bleekselderij in 2 el olie 5–10 min op laag vuur tot zacht maar niet bruin.",
+      "Voeg fijngehakte zongedroogde tomaten en knoflook toe, bak nog een paar minuten en laat afkoelen.",
+      "Roer parmezaan, een deel van de basilicum en de dragon erdoor; peper erbij, weinig zout (taleggio is zout).",
+      "Verdeel de vulling over de paddenstoelen, leg er plakjes taleggio op en bak ca. 10 min tot de kaas gesmolten is.",
+      "Besprenkel met wat olie en garneer met de rest van de basilicum. Lekker met een groene salade."
+    ],
+    "notities": "Hoeveelheden bij benadering (via een overgetypte versie van het Plenty-recept)."
   }
 ]
