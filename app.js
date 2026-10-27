@@ -1,37 +1,24 @@
 // Mijn Recepten — geen build-stap, gewoon statische bestanden.
-// data/recipes.json      → alle recepten
+// data/recipes.json      → alle recepten (met verborgen 'kenmerken' voor de Kiezen-tab)
 // data/voorraadkast.json → ingrediënten die je altijd in huis hebt (tellen nergens mee)
-// Duimpjes en "gekookt op" staan lokaal op je telefoon (localStorage).
+// De app bewaart niets op je telefoon: restjes en swipes gelden alleen voor dat moment.
 
 const $ = (s) => document.querySelector(s);
-const OPSLAG = "recepten-v1";
 
 let recepten = [];
 let voorraad = new Set();
-let staat = laad();
-let actieveTags = new Set();
-let suggestieRonde = 0;
-let restjes = []; // wat je wilt opmaken (niet bewaard)
-
-// ---------- opslag ----------
-function laad() {
-  try {
-    const s = JSON.parse(localStorage.getItem(OPSLAG));
-    if (s) return { oordeel: s.oordeel || {}, gekookt: s.gekookt || {} };
-  } catch (e) {}
-  return { oordeel: {}, gekookt: {} };
-}
-function bewaar() {
-  try { localStorage.setItem(OPSLAG, JSON.stringify(staat)); } catch (e) {}
-}
+let actieveTags = new Set();   // filters op de recepten-tab
+let kiesTags = new Set();      // filters op de kiezen-tab
+let restjes = [];              // wat je wilt opmaken
+let swipe = null;              // { kaarten, i, ja, nee, aantal }
 
 // ---------- helpers ----------
 const norm = (t) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/['’]/g, "").trim();
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const vandaag = () => new Date().toISOString().slice(0, 10);
-const dagenGeleden = (d) => Math.floor((Date.now() - new Date(d).getTime()) / 86400000);
 const isVoorraad = (naam) => voorraad.has(norm(naam));
-function hash(s) { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return (h >>> 0) / 4294967295; }
+const alleTags = () => [...new Set(recepten.flatMap((r) => r.tags || []))].sort();
+const heeftTags = (r, set) => [...set].every((t) => (r.tags || []).includes(t));
+const kernIngredienten = (r) => r.ingredienten.filter((i) => !isVoorraad(i.naam) && !i.optioneel).map((i) => i.naam);
 
 // Simpele Nederlandse 'stam': tomaat → tomat (matcht cherrytomaten), eieren → eier, gamba's → gamba
 function stam(t) {
@@ -46,13 +33,25 @@ function matcht(r, n) {
   return nn.includes(st) || stam(n) === st;
 }
 
+function kaart(r, extra = "") {
+  return `<li><button class="kaart" data-id="${esc(r.id)}">
+    <strong>${esc(r.titel)}</strong>
+    <span class="meta">${r.tijd ? `⏱ ${r.tijd} min` : ""}${(r.tags || []).map((t) => ` · ${esc(t)}`).join("")}</span>
+    ${extra}
+  </button></li>`;
+}
+
+function chips(set) {
+  return alleTags().map((t) => `<button class="chip${set.has(t) ? " aan" : ""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+}
+
 // ---------- recepten-tab ----------
 function gefilterd() {
   const q = norm($("#zoek").value);
   const maxTijd = +$("#maxTijd").value || Infinity;
   return recepten.filter((r) => {
     if (r.tijd && r.tijd > maxTijd) return false;
-    if (actieveTags.size && ![...actieveTags].every((t) => (r.tags || []).includes(t))) return false;
+    if (!heeftTags(r, actieveTags)) return false;
     if (q) {
       const tekst = norm([r.titel, ...(r.tags || []), ...r.ingredienten.map((i) => i.naam)].join(" "));
       if (!q.split(/\s+/).every((w) => tekst.includes(w))) return false;
@@ -61,50 +60,138 @@ function gefilterd() {
   });
 }
 
-function suggesties(lijst) {
-  return lijst
-    .filter((r) => staat.oordeel[r.id] !== "neer")
-    .map((r) => {
-      const laatst = staat.gekookt[r.id]?.at(-1);
-      const dagen = laatst ? dagenGeleden(laatst) : null;
-      let score = 0;
-      const redenen = [];
-      if (staat.oordeel[r.id] === "op") { score += 3; redenen.push("👍 favoriet"); }
-      if (dagen === null) { score += 2.5; redenen.push("nog nooit gemaakt"); }
-      else if (dagen < 4) score -= 6;
-      else { score += Math.min(dagen, 60) / 10; if (dagen >= 14) redenen.push(`${Math.floor(dagen / 7)} weken niet gegeten`); }
-      score += hash(vandaag() + suggestieRonde + r.id) * 2.5;
-      return { r, score, redenen };
-    })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3);
-}
-
-function kaart(r, extra = "") {
-  const oordeel = staat.oordeel[r.id] === "op" ? " 👍" : staat.oordeel[r.id] === "neer" ? " 👎" : "";
-  return `<li><button class="kaart" data-id="${esc(r.id)}">
-    <strong>${esc(r.titel)}${oordeel}</strong>
-    <span class="meta">${r.tijd ? `⏱ ${r.tijd} min` : ""}${(r.tags || []).map((t) => ` · ${esc(t)}`).join("")}</span>
-    ${extra}
-  </button></li>`;
-}
-
 function toonRecepten() {
   const lijst = gefilterd().sort((a, b) => a.titel.localeCompare(b.titel));
-  const sug = lijst.length > 3 ? suggesties(lijst) : [];
-  $("#suggesties").innerHTML = sug.length
-    ? `<div class="sugkop"><h2>Vandaag voorgesteld</h2><button id="anders" class="linkknop">↻ andere</button></div>
-       <ul class="kaarten sug">${sug.map((s) => kaart(s.r, s.redenen.length ? `<span class="reden">${esc(s.redenen.join(" · "))}</span>` : "")).join("")}</ul>`
-    : "";
+  $("#tagChips").innerHTML = chips(actieveTags);
   $("#aantal").textContent = `${lijst.length} van ${recepten.length} recepten`;
   $("#lijst").innerHTML = lijst.map((r) => kaart(r)).join("") ||
     `<li class="leeg">Geen recepten gevonden met deze filters.</li>`;
 }
 
-function toonTags() {
-  const tags = [...new Set(recepten.flatMap((r) => r.tags || []))].sort();
-  $("#tagChips").innerHTML = tags.map((t) =>
-    `<button class="chip${actieveTags.has(t) ? " aan" : ""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+// ---------- kiezen-tab (swipen) ----------
+const AANTAL_SWIPES = 3;
+const PER_KEER = 5;
+
+function lijkt(a, b) {
+  const ka = a.kenmerken || {}, kb = b.kenmerken || {};
+  let s = 0;
+  if (ka.basis && ka.basis === kb.basis) s += 2;
+  if (ka.eiwit && ka.eiwit === kb.eiwit) s += 2;
+  if (ka.gewicht && ka.gewicht === kb.gewicht) s += 1;
+  s += (ka.karakter || []).filter((k) => (kb.karakter || []).includes(k)).length;
+  const ib = kernIngredienten(b).map(norm);
+  s += Math.min(kernIngredienten(a).filter((n) => ib.includes(norm(n))).length, 3) * 0.5;
+  return s;
+}
+
+function kiesPool() {
+  const maxTijd = +$("#kiesTijd").value || Infinity;
+  return recepten.filter((r) => (!r.tijd || r.tijd <= maxTijd) && heeftTags(r, kiesTags));
+}
+
+// Kies gevarieerde kaarten: steeds het recept dat het minst lijkt op de al gekozen kaarten
+function gevarieerd(pool, n) {
+  const rest = [...pool].sort(() => Math.random() - 0.5);
+  const gekozen = rest.length ? [rest.shift()] : [];
+  while (gekozen.length < n && rest.length) {
+    rest.sort((a, b) => Math.max(...gekozen.map((g) => lijkt(a, g))) - Math.max(...gekozen.map((g) => lijkt(b, g))));
+    gekozen.push(rest.shift());
+  }
+  return gekozen;
+}
+
+function startSwipe() {
+  const pool = kiesPool();
+  swipe = { kaarten: gevarieerd(pool, Math.min(AANTAL_SWIPES, pool.length)), i: 0, ja: [], nee: [], aantal: PER_KEER, pool };
+  toonKiezen();
+}
+
+function beslis(jaNee) {
+  if (!swipe || swipe.i >= swipe.kaarten.length) return;
+  const r = swipe.kaarten[swipe.i];
+  (jaNee ? swipe.ja : swipe.nee).push(r);
+  swipe.i++;
+  toonKiezen();
+}
+
+function uitslag() {
+  const { ja, nee, pool } = swipe;
+  const gescoord = pool
+    .filter((r) => !nee.includes(r))
+    .map((r) => {
+      let score = Math.random() * 0.5, beste = null, besteS = -1;
+      for (const l of ja) { const s = r === l ? 100 : lijkt(r, l); score += s; if (s > besteS) { besteS = s; beste = l; } }
+      for (const d of nee) score -= 0.7 * lijkt(r, d);
+      const reden = ja.includes(r) ? "je had hier zin in" : beste ? `lijkt op ${beste.titel.replace(/ \(.*\)$/, "")}` : nee.length ? "anders dan wat je wegswipete" : "";
+      return { r, score, reden, anker: ja.includes(r) ? null : beste };
+    })
+    .sort((a, b) => b.score - a.score);
+  // Wissel af tussen de recepten waar je zin in had, zodat niet alles op één ervan lijkt
+  const eerst = gescoord.filter((x) => !x.anker), groepen = new Map();
+  for (const x of gescoord.filter((x) => x.anker)) {
+    if (!groepen.has(x.anker)) groepen.set(x.anker, []);
+    groepen.get(x.anker).push(x);
+  }
+  const rest = [];
+  while ([...groepen.values()].some((g) => g.length)) for (const g of groepen.values()) if (g.length) rest.push(g.shift());
+  return [...eerst, ...rest];
+}
+
+function swipeKaart(r) {
+  const k = r.kenmerken || {};
+  const labels = [k.basis, k.eiwit === "vega" ? null : k.eiwit, k.gewicht, ...(k.karakter || [])].filter(Boolean);
+  const ingr = kernIngredienten(r);
+  return `<div class="swipekaart" id="swipeKaart">
+      <span class="badge ja">zin in</span><span class="badge nee">nee</span>
+      <h2>${esc(r.titel)}</h2>
+      <p class="meta">${r.tijd ? `⏱ ${r.tijd} min` : ""}${(r.tags || []).map((t) => ` · ${esc(t)}`).join("")}</p>
+      <div class="labels">${labels.map((l) => `<span>${esc(l)}</span>`).join("")}</div>
+      <p class="ingrkort">${esc(ingr.slice(0, 8).join(", "))}${ingr.length > 8 ? "…" : ""}</p>
+    </div>`;
+}
+
+function toonKiezen() {
+  $("#kiesChips").innerHTML = chips(kiesTags);
+  if (!swipe) startSwipe();
+  const vak = $("#swipeVak");
+  const { kaarten, i } = swipe;
+  if (!swipe.pool.length) { vak.innerHTML = `<p class="leeg">Geen recepten met deze filters.</p>`; return; }
+  if (i < kaarten.length) {
+    vak.innerHTML = `<p class="muted stap">${i + 1} van ${kaarten.length} · swipe of tik</p>
+      ${swipeKaart(kaarten[i])}
+      <div class="swipeknoppen">
+        <button data-swipe="nee" aria-label="Nee">✕</button>
+        <button data-swipe="ja" aria-label="Zin in">♥</button>
+      </div>`;
+    sleepbaar($("#swipeKaart"));
+    return;
+  }
+  const res = uitslag();
+  vak.innerHTML = `<div class="sugkop"><h2>Voor jou</h2><button id="opnieuw" class="linkknop">↻ opnieuw swipen</button></div>
+    <ul class="kaarten">${res.slice(0, swipe.aantal).map((x) => kaart(x.r, x.reden ? `<span class="reden">${esc(x.reden)}</span>` : "")).join("")}</ul>
+    ${res.length > swipe.aantal ? `<button id="meer" class="meerknop">Meer suggesties</button>` : ""}`;
+}
+
+// Swipen met je vinger (of muis)
+function sleepbaar(el) {
+  let x0 = null, dx = 0;
+  el.addEventListener("pointerdown", (e) => { x0 = e.clientX; dx = 0; el.setPointerCapture(e.pointerId); el.style.transition = "none"; });
+  el.addEventListener("pointermove", (e) => {
+    if (x0 === null) return;
+    dx = e.clientX - x0;
+    el.style.transform = `translateX(${dx}px) rotate(${dx / 20}deg)`;
+    el.classList.toggle("naarJa", dx > 40); el.classList.toggle("naarNee", dx < -40);
+  });
+  const los = () => {
+    if (x0 === null) return;
+    x0 = null; el.style.transition = "";
+    if (Math.abs(dx) > 90) {
+      el.style.transform = `translateX(${dx > 0 ? 500 : -500}px) rotate(${dx / 10}deg)`;
+      setTimeout(() => beslis(dx > 0), 180);
+    } else { el.style.transform = ""; el.classList.remove("naarJa", "naarNee"); }
+  };
+  el.addEventListener("pointerup", los);
+  el.addEventListener("pointercancel", los);
 }
 
 // ---------- opmaken-tab ----------
@@ -176,18 +263,10 @@ function toonOpmaken() {
 function toonDetail(id) {
   const r = recepten.find((x) => x.id === id);
   if (!r) return;
-  const gek = staat.gekookt[r.id] || [];
-  const o = staat.oordeel[r.id];
   $("#detailInhoud").innerHTML = `
     <h2>${esc(r.titel)}</h2>
     <p class="meta">${r.tijd ? `⏱ ${r.tijd} min · ` : ""}${r.porties ? `${r.porties} porties` : ""}${(r.tags || []).length ? " · " + r.tags.map(esc).join(", ") : ""}</p>
     ${r.bron ? `<p class="meta">Bron: ${/^https?:/.test(r.bron) ? `<a href="${esc(r.bron)}" target="_blank" rel="noopener">${esc(new URL(r.bron).hostname)}</a>` : esc(r.bron)}</p>` : ""}
-    <div class="acties">
-      <button data-oordeel="op" class="${o === "op" ? "aan" : ""}">👍</button>
-      <button data-oordeel="neer" class="${o === "neer" ? "aan" : ""}">👎</button>
-      <button id="gekookt" class="hoofd">Vandaag gekookt</button>
-    </div>
-    <p class="meta">${gek.length ? `${gek.length}× gemaakt, laatst ${dagenGeleden(gek.at(-1)) === 0 ? "vandaag" : `${dagenGeleden(gek.at(-1))} dagen geleden`}` : "Nog nooit gemaakt"}</p>
     <h3>Ingrediënten</h3>
     <ul class="ingr">${r.ingredienten.map((i) => {
       const k = isVoorraad(i.naam) ? "kast" : restjes.some((x) => matcht(x, i.naam)) ? "heb" : "";
@@ -198,24 +277,25 @@ function toonDetail(id) {
     ${r.notities ? `<h3>Notities</h3><p>${esc(r.notities)}</p>` : ""}`;
   $("#detail").hidden = false;
   $("#detail").scrollTop = 0;
-  $("#detail").dataset.id = id;
 }
 
-function sluitDetail() {
-  $("#detail").hidden = true;
-  if (!$("#view-opmaken").hidden) toonOpmaken(); else toonRecepten();
+function huidigeView() { return document.querySelector(".tabs .actief")?.dataset.view || "recepten"; }
+
+function toonView(view) {
+  if (view === "opmaken") toonOpmaken(); else if (view === "kiezen") toonKiezen(); else toonRecepten();
 }
 
 function wissel(view) {
   document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== `view-${view}`));
   document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("actief", b.dataset.view === view));
-  $("#pageTitle").textContent = view === "opmaken" ? "Wat moet op?" : "Recepten";
-  if (view === "opmaken") toonOpmaken(); else toonRecepten();
+  $("#pageTitle").textContent = { opmaken: "Wat moet op?", kiezen: "Waar heb je zin in?" }[view] || "Recepten";
+  toonView(view);
   window.scrollTo(0, 0);
 }
 
 // ---------- events ----------
 ["#zoek", "#maxTijd"].forEach((s) => $(s).addEventListener("input", toonRecepten));
+$("#kiesTijd").addEventListener("input", startSwipe);
 $("#restInput").addEventListener("input", toonDropdown);
 $("#restInput").addEventListener("focus", toonDropdown);
 $("#restInput").addEventListener("keydown", (e) => {
@@ -229,23 +309,17 @@ document.addEventListener("click", (e) => {
   if (weg) { restjes = restjes.filter((r) => r !== weg.dataset.weg); return toonOpmaken(); }
   const k = e.target.closest(".kaart"); if (k) return toonDetail(k.dataset.id);
   const c = e.target.closest(".chip[data-tag]");
-  if (c) { const t = c.dataset.tag; actieveTags.has(t) ? actieveTags.delete(t) : actieveTags.add(t); toonTags(); return toonRecepten(); }
-  if (e.target.closest("#anders")) { suggestieRonde++; return toonRecepten(); }
+  if (c) {
+    const set = c.closest("#kiesChips") ? kiesTags : actieveTags, t = c.dataset.tag;
+    set.has(t) ? set.delete(t) : set.add(t);
+    return set === kiesTags ? startSwipe() : toonRecepten();
+  }
+  const sw = e.target.closest("[data-swipe]"); if (sw) return beslis(sw.dataset.swipe === "ja");
+  if (e.target.closest("#opnieuw")) return startSwipe();
+  if (e.target.closest("#meer")) { swipe.aantal += PER_KEER; return toonKiezen(); }
   const tab = e.target.closest(".tabs button"); if (tab) { $("#detail").hidden = true; return wissel(tab.dataset.view); }
-  const oo = e.target.closest("[data-oordeel]");
-  if (oo) {
-    const id = $("#detail").dataset.id;
-    staat.oordeel[id] = staat.oordeel[id] === oo.dataset.oordeel ? undefined : oo.dataset.oordeel;
-    bewaar(); return toonDetail(id);
-  }
-  if (e.target.closest("#gekookt")) {
-    const id = $("#detail").dataset.id;
-    (staat.gekookt[id] ||= []);
-    if (staat.gekookt[id].at(-1) !== vandaag()) staat.gekookt[id].push(vandaag());
-    bewaar(); return toonDetail(id);
-  }
 });
-$("#terug").addEventListener("click", sluitDetail);
+$("#terug").addEventListener("click", () => { $("#detail").hidden = true; toonView(huidigeView()); });
 
 // ---------- start ----------
 Promise.all([
@@ -254,7 +328,7 @@ Promise.all([
 ]).then(([data, kast]) => {
   recepten = data;
   voorraad = new Set(kast.map(norm));
-  toonTags(); toonRecepten();
+  toonRecepten();
 }).catch(() => { $("#lijst").innerHTML = `<li class="leeg">Kon recepten niet laden.</li>`; });
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

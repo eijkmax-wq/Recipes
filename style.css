@@ -38,10 +38,8 @@ input[type=search], .thuisform input { width: 100%; padding: 11px 14px; border-r
 .reden { color: var(--accent); font-size: .85rem; }
 .leeg { color: var(--zacht); padding: 20px 0; text-align: center; }
 
-#suggesties { margin-top: 4px; }
 .sugkop { display: flex; justify-content: space-between; align-items: baseline; }
 .sugkop h2 { font-size: 1rem; margin: 8px 0; }
-.sug .kaart { background: var(--accent-zacht); border-color: transparent; }
 .linkknop { background: none; border: none; color: var(--accent); padding: 6px 0; cursor: pointer; }
 
 .thuisform { display: flex; gap: 8px; margin: 10px 0; }
@@ -58,10 +56,6 @@ input[type=search], .thuisform input { width: 100%; padding: 11px 14px; border-r
 .detail h2 { font-size: 1.5rem; margin: 4px 0; letter-spacing: -0.02em; }
 .detail h3 { margin: 22px 0 8px; font-size: 1.05rem; }
 .detail a { color: var(--accent); }
-.acties { display: flex; gap: 8px; margin: 14px 0 6px; }
-.acties button { padding: 9px 14px; border-radius: 12px; border: 1px solid var(--lijn); background: var(--kaart); }
-.acties button.aan { background: var(--accent-zacht); border-color: var(--accent); }
-.acties .hoofd { flex: 1; background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .ingr { list-style: none; padding: 0; margin: 0; }
 .ingr li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--lijn); }
 .ingr li span:last-child { color: var(--zacht); text-align: right; }
@@ -88,3 +82,23 @@ input[type=search], .thuisform input { width: 100%; padding: 11px 14px; border-r
 #restChips { margin-bottom: 8px; }
 .ingr li.kast span:first-child { color: var(--zacht); }
 .kastmelding { padding: 10px; font-size: .88rem; }
+
+/* kiezen (swipen) */
+.stap { text-align: center; margin: 12px 0 8px; }
+.swipekaart { position: relative; background: var(--kaart); border: 1px solid var(--lijn); border-radius: 20px;
+  padding: 22px 18px; min-height: 260px; touch-action: pan-y; user-select: none; cursor: grab;
+  transition: transform .2s ease; box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+.swipekaart h2 { margin: 0 0 6px; font-size: 1.35rem; letter-spacing: -0.02em; }
+.labels { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.labels span { background: var(--accent-zacht); color: var(--accent); border-radius: 999px; padding: 3px 10px; font-size: .82rem; }
+.ingrkort { color: var(--zacht); font-size: .92rem; margin: 0; }
+.badge { position: absolute; top: 14px; padding: 3px 10px; border-radius: 8px; font-weight: 700; font-size: .85rem; opacity: 0; transition: opacity .1s; }
+.badge.ja { right: 14px; color: var(--ok); border: 2px solid var(--ok); }
+.badge.nee { left: 14px; color: var(--mist); border: 2px solid var(--mist); }
+.naarJa .badge.ja, .naarNee .badge.nee { opacity: 1; }
+.swipeknoppen { display: flex; justify-content: center; gap: 28px; margin: 18px 0; }
+.swipeknoppen button { width: 64px; height: 64px; border-radius: 50%; border: 1px solid var(--lijn); background: var(--kaart); font-size: 1.5rem; cursor: pointer; }
+.swipeknoppen [data-swipe=nee] { color: var(--mist); }
+.swipeknoppen [data-swipe=ja] { color: var(--ok); }
+.meerknop { width: 100%; margin-top: 10px; padding: 12px; border-radius: 12px; border: 1px solid var(--lijn); background: var(--kaart); color: var(--accent); cursor: pointer; }
+#kiesChips:empty { display: none; }

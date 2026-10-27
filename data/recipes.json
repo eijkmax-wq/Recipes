@@ -8,6 +8,15 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "brood",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "zwarte bonen",
@@ -100,6 +109,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "olijfolie",
@@ -158,8 +175,17 @@
     "tijd": 45,
     "porties": 4,
     "tags": [
-      "vega"
+      "vega",
+      "vegan"
     ],
+    "kenmerken": {
+      "basis": "noedels",
+      "eiwit": "vega",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "rijstazijn",
@@ -238,6 +264,14 @@
     "tijd": 40,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vis",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "feta",
@@ -311,6 +345,15 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "olijfolie",
@@ -367,6 +410,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "graan",
+      "eiwit": "vega",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "aubergine",
@@ -440,6 +491,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vega",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "venkel",
@@ -505,6 +564,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "zonnebloemolie",
@@ -576,8 +643,17 @@
     "tijd": 35,
     "porties": 4,
     "tags": [
-      "vega"
+      "vega",
+      "vegan"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "olijfolie",
@@ -662,6 +738,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "portobello's",
@@ -730,6 +814,14 @@
     "tijd": 35,
     "porties": 2,
     "tags": [],
+    "kenmerken": {
+      "basis": "aardappel",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "krieltjes",
@@ -808,6 +900,14 @@
     "tijd": 25,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "spaghetti",
@@ -873,6 +973,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "macaroni",
@@ -930,6 +1038,15 @@
     "tijd": 70,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "olijfolie",
@@ -1010,6 +1127,15 @@
     "tijd": 35,
     "porties": 3,
     "tags": [],
+    "kenmerken": {
+      "basis": "soep",
+      "eiwit": "kip",
+      "karakter": [
+        "fris",
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "kippenbouillon",
@@ -1090,6 +1216,14 @@
     "bron": "https://miljuschka.nl/uiensoep-recept/",
     "tijd": 80,
     "tags": [],
+    "kenmerken": {
+      "basis": "soep",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "ui",
@@ -1161,7 +1295,17 @@
     "bron": "https://www.lecremedelacrumb.com/slow-cooker-honey-sesame-chicken/",
     "tijd": 190,
     "porties": 4,
-    "tags": [],
+    "tags": [
+      "slowcooker"
+    ],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "kipfilet",
@@ -1230,6 +1374,15 @@
     "tijd": 35,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort",
+        "pittig"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "chorizo",
@@ -1316,6 +1469,15 @@
     "tijd": 20,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort",
+        "pittig"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "zonnebloemolie",
@@ -1399,6 +1561,14 @@
     "tijd": 110,
     "porties": 6,
     "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "aubergine",
@@ -1512,6 +1682,14 @@
     "tijd": 55,
     "porties": 3,
     "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "aubergine",
@@ -1589,6 +1767,14 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "spruitjes",
@@ -1647,8 +1833,17 @@
     "tijd": 55,
     "porties": 4,
     "tags": [
-      "vega"
+      "vega",
+      "vegan"
     ],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "aubergine",
@@ -1706,6 +1901,14 @@
     "tijd": 25,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "bonen",
+      "eiwit": "vis",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "citroen",
@@ -1774,6 +1977,15 @@
     "tijd": 30,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "pittig",
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "knoflook",
@@ -1840,6 +2052,15 @@
     "tijd": 180,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "vlees",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "rode peper",
@@ -1918,6 +2139,15 @@
     "tags": [
       "vega"
     ],
+    "kenmerken": {
+      "basis": "bonen",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort",
+        "pittig"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "olijfolie",
@@ -1997,6 +2227,15 @@
     "tijd": 30,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
     "ingredienten": [
       {
         "naam": "zout",
@@ -2052,6 +2291,15 @@
     "tijd": 45,
     "porties": 4,
     "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vis",
+      "karakter": [
+        "fris",
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
     "ingredienten": [
       {
         "naam": "kokosmelk",
