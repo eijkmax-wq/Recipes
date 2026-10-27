@@ -1391,5 +1391,193 @@
       "Serveer met rijst en/of naan."
     ],
     "notities": "Lichter: halfvolle room of yoghurt in plaats van room."
+  },
+  {
+    "id": "moussaka",
+    "titel": "Moussaka",
+    "bron": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/",
+    "tijd": 110,
+    "porties": 6,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "1 kg"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1 tl + ¾ tl"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "3–4 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "gehakt",
+        "hoeveelheid": "700 g (rund of lam)"
+      },
+      {
+        "naam": "rode wijn",
+        "hoeveelheid": "125 ml",
+        "optioneel": true
+      },
+      {
+        "naam": "tomatenblokjes",
+        "hoeveelheid": "400 g"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "runderbouillon",
+        "hoeveelheid": "250 ml + 1 blokje"
+      },
+      {
+        "naam": "laurier",
+        "hoeveelheid": "2 blaadjes"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "1½ tl"
+      },
+      {
+        "naam": "oregano",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "kaneel",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "60 g"
+      },
+      {
+        "naam": "bloem",
+        "hoeveelheid": "40 g"
+      },
+      {
+        "naam": "melk",
+        "hoeveelheid": "625 ml"
+      },
+      {
+        "naam": "nootmuskaat",
+        "hoeveelheid": "¼ tl",
+        "optioneel": true
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "50 g"
+      },
+      {
+        "naam": "eieren",
+        "hoeveelheid": "1 + 1 dooier"
+      },
+      {
+        "naam": "bouillon",
+        "hoeveelheid": "1¼ tl poeder (of zout)"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "¼ tl"
+      },
+      {
+        "naam": "panko",
+        "hoeveelheid": "25 g"
+      }
+    ],
+    "bereiding": [
+      "Leg de aubergine in plakken van ¾ cm laagsgewijs met zout in een vergiet en laat 30 min uitzweten. Maak intussen de vleessaus en bechamel.",
+      "Oven op 240 °C. Dep de plakken goed droog, leg op bakpapier, bestrijk met olie en bak 15–20 min tot zacht en lichtbruin.",
+      "Vleessaus: fruit ui en knoflook 2 min in olie op hoog vuur, bak het gehakt rul. Blus af met wijn (1½ min), voeg tomaten, tomatenpuree, bouillon, bouillonblokje, laurier, suiker, oregano, kaneel en ¾ tl zout toe en laat ca. 15 min op middelhoog vuur indikken.",
+      "Bechamel: smelt de boter, roer de bloem erdoor en bak 1 min. Klop geleidelijk de melk erdoor en roer 3–5 min tot dik. Van het vuur af kaas, nootmuskaat, bouillonpoeder en peper erdoor; 5 min laten afkoelen en dan ei en dooier erdoor kloppen.",
+      "Oven naar 180 °C. Leg de helft van de aubergine in een ovenschaal, dan alle vleessaus, dan de rest van de aubergine. Smeer de bechamel erover en bestrooi met panko.",
+      "Bak 30–40 min goudbruin en laat 10 min rusten voor het aansnijden."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "gevulde-aubergines-gehakt-paprika",
+    "titel": "Gevulde aubergines met gehakt en paprika",
+    "bron": "https://www.leukerecepten.nl/recepten/gevulde-aubergines-gehakt/",
+    "tijd": 55,
+    "porties": 3,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "om te bestrijken"
+      },
+      {
+        "naam": "gehakt",
+        "hoeveelheid": "300 g"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 teen"
+      },
+      {
+        "naam": "rode paprika",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "kaneel",
+        "hoeveelheid": "snufje"
+      },
+      {
+        "naam": "oregano",
+        "hoeveelheid": "snufje"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "tomatenblokjes",
+        "hoeveelheid": "1 blik (400 g)"
+      },
+      {
+        "naam": "kalamata-olijven",
+        "hoeveelheid": "15"
+      },
+      {
+        "naam": "geraspte kaas",
+        "hoeveelheid": "handje"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "om te garneren",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Oven op 200 °C. Bestrijk de aubergines met olijfolie en bak ze 30 min, halverwege keren.",
+      "Fruit ui en knoflook, voeg het gehakt toe en bak rul en gaar. Bak de paprika in blokjes een paar minuten mee.",
+      "Breng op smaak met zout, peper, oregano en kaneel. Voeg de tomatenblokjes toe en laat ca. 10 min indikken. Roer als laatste de olijven in ringetjes erdoor.",
+      "Snijd de aubergines bijna helemaal doormidden, vouw open, vul met het gehaktmengsel en bestrooi met kaas.",
+      "Nog 15 min in de oven. Garneer met peterselie."
+    ],
+    "notities": "Paprika is Max' eigen toevoeging."
   }
 ]
