@@ -91,5 +91,594 @@
       "Snijd in punten en serveer met de rest van de salsa en wat korianderblaadjes."
     ],
     "notities": "Uit Plenty. Tortilla's van mais werken het best, tarwe kan ook."
+  },
+  {
+    "id": "pappardelle-harissa-olijven",
+    "titel": "Pappardelle met harissa, olijven en kappertjes (Ottolenghi)",
+    "bron": "https://ottolenghi.co.uk/pages/recipes/pappardelle-rose-harissa-black-olives-capers",
+    "tijd": 35,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "2 el",
+        "basis": true
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 grote"
+      },
+      {
+        "naam": "rozenharissa",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "400 g"
+      },
+      {
+        "naam": "kalamata-olijven",
+        "hoeveelheid": "55 g, ontpit"
+      },
+      {
+        "naam": "kappertjes",
+        "hoeveelheid": "20 g"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "15 g"
+      },
+      {
+        "naam": "pappardelle",
+        "hoeveelheid": "500 g"
+      },
+      {
+        "naam": "Griekse yoghurt",
+        "hoeveelheid": "120 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Bak de ui in dunne ringen ca. 8 min in de olie op middelhoog vuur tot zacht en gekarameliseerd.",
+      "Voeg harissa, gehalveerde tomaatjes, gescheurde olijven, kappertjes en ½ tl zout toe en bak 3–4 min tot de tomaten inzakken.",
+      "Schenk er 200 ml water bij, breng aan de kook en laat afgedekt 10 min zachtjes koken. Daarna zonder deksel nog 4–5 min inkoken. Roer de helft van de peterselie erdoor.",
+      "Kook de pappardelle al dente, giet af en meng met de saus en een snufje zout.",
+      "Serveer met een lepel yoghurt en de rest van de peterselie."
+    ],
+    "notities": "Rozenharissa verschilt per merk in pittigheid; proef en doseer."
+  },
+  {
+    "id": "sobanoedels-aubergine-mango",
+    "titel": "Sobanoedels met aubergine en mango (Ottolenghi)",
+    "bron": "Ottolenghi, Plenty",
+    "tijd": 45,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "rijstazijn",
+        "hoeveelheid": "120 ml"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "40 g",
+        "basis": true
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "rode peper",
+        "hoeveelheid": "½"
+      },
+      {
+        "naam": "sesamolie",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "1 (ca. 350 g)"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "80 ml",
+        "basis": true
+      },
+      {
+        "naam": "sobanoedels",
+        "hoeveelheid": "225 g"
+      },
+      {
+        "naam": "mango",
+        "hoeveelheid": "1 grote rijpe"
+      },
+      {
+        "naam": "tofu",
+        "hoeveelheid": "225 g",
+        "optioneel": true
+      },
+      {
+        "naam": "rode ui",
+        "hoeveelheid": "½"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "handje"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "handje"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Dressing: verwarm azijn, suiker en ½ tl zout tot de suiker is opgelost. Van het vuur af knoflook, fijngehakte peper en sesamolie erdoor roeren, laten afkoelen en dan rasp en sap van de limoen toevoegen.",
+      "Snijd de aubergine in blokjes van 1 cm en bak in 3 porties in de olie diep goudbruin. Laat uitlekken op keukenpapier en bestrooi met wat zout.",
+      "Kook de soba net gaar, spoel koud af en laat goed uitlekken.",
+      "Meng noedels, dressing, mango, aubergine, dunne ringen rode ui, tofu en het grootste deel van de kruiden. Eventueel 1–2 uur laten intrekken; garneer met de rest van de kruiden."
+    ],
+    "notities": "Tofu is optioneel (gegrild of gebakken, in kleine blokjes)."
+  },
+  {
+    "id": "orzo-gamba-feta",
+    "titel": "Orzo met gamba's, tomaat en gemarineerde feta (Ottolenghi)",
+    "bron": "Ottolenghi, Simple",
+    "tijd": 40,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "feta",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "venkelzaad",
+        "hoeveelheid": "4 tl"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "75 ml",
+        "basis": true
+      },
+      {
+        "naam": "orzo",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "sinaasappel",
+        "hoeveelheid": "3 reepjes schil"
+      },
+      {
+        "naam": "tomatenblokjes",
+        "hoeveelheid": "1 blik (400 g)"
+      },
+      {
+        "naam": "groentebouillon",
+        "hoeveelheid": "500 ml"
+      },
+      {
+        "naam": "gamba's",
+        "hoeveelheid": "400 g rauw"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "30 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Rooster het venkelzaad kort en kneus het. Meng de feta in blokjes met ¼ tl chilivlokken, de helft van het venkelzaad en 1 el olie.",
+      "Bak de orzo 3–4 min in 2 el olie met wat zout en peper tot goudbruin; haal uit de pan.",
+      "Bak in dezelfde pan in de rest van de olie de overige chilivlokken, het venkelzaad, knoflook en sinaasappelschil 1 minuut.",
+      "Voeg tomatenblokjes, bouillon, 200 ml water, ¾ tl zout en peper toe, breng aan de kook en roer de orzo erdoor.",
+      "Laat afgedekt 15 min zachtjes koken, af en toe roeren. Daarna 1–2 min zonder deksel tot het een risotto-achtige dikte heeft.",
+      "Roer de gamba's erdoor tot ze roze en gaar zijn (2–3 min) en schep de basilicum erdoor. Serveer met de feta erover."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "fettuccine-pittige-cherrytomaten",
+    "titel": "Fettuccine met pittige cherrytomatensaus (Ottolenghi)",
+    "bron": "Ottolenghi, Simple",
+    "tijd": 75,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "75 ml",
+        "basis": true
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "1 kg"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "½ tl",
+        "basis": true
+      },
+      {
+        "naam": "ancho-chili",
+        "hoeveelheid": "1 gedroogde",
+        "optioneel": true
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "20 g"
+      },
+      {
+        "naam": "fettuccine",
+        "hoeveelheid": "400 g"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "35 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Bak de dun gesneden knoflook in de olie op middelhoog vuur tot hij net begint te kleuren (max 1 min).",
+      "Voeg voorzichtig de gehalveerde tomaatjes, suiker, gescheurde chili en ½ tl zout toe, plus 200 ml water. Roer ca. 4 min tot de tomaten inzakken.",
+      "Zet het vuur laag en laat ca. 1 uur pruttelen tot de saus dik is, af en toe roeren. Roer de basilicum erdoor.",
+      "Kook de pasta al dente, giet af en meng met de saus. Serveer met parmezaan."
+    ],
+    "notities": "Geen ancho-chili? Gebruik ¼ tl gerookte paprikapoeder of laat weg."
+  },
+  {
+    "id": "bulgur-aubergine-tomaat-citroen",
+    "titel": "Bulgur met tomaat, aubergine en citroenyoghurt (Ottolenghi)",
+    "bron": "Ottolenghi, Simple",
+    "tijd": 90,
+    "porties": 2,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "4 el",
+        "basis": true
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 teen"
+      },
+      {
+        "naam": "piment",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "½ el"
+      },
+      {
+        "naam": "bulgur",
+        "hoeveelheid": "125 g"
+      },
+      {
+        "naam": "Griekse yoghurt",
+        "hoeveelheid": "100 g"
+      },
+      {
+        "naam": "ingemaakte citroen",
+        "hoeveelheid": "½"
+      },
+      {
+        "naam": "munt",
+        "hoeveelheid": "5 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Oven op 220 °C (hetelucht 200 °C). Hussel de aubergine in blokken van 3 cm met 2 el olie, ½ tl zout en peper en rooster 35–40 min, halverwege omscheppen.",
+      "Bak de ui in de rest van de olie ca. 8 min zacht en licht gekarameliseerd. Voeg knoflook en piment toe en bak nog 1 min.",
+      "Voeg gehalveerde tomaatjes toe en druk ze licht fijn. Tomatenpuree, 200 ml water en wat zout erbij, aan de kook brengen en afgedekt 12 min laten sudderen.",
+      "Roer de bulgur erdoor, haal van het vuur en laat afgedekt 20 min staan.",
+      "Meng yoghurt met fijngehakte ingemaakte citroen en de helft van de munt; zout voorzichtig (de citroen is zout).",
+      "Schep de bulgur op een schaal, leg de aubergine erop, lepel de yoghurt erover en strooi de rest van de munt erover."
+    ],
+    "notities": "Hoeveelheden voor 2 personen als hoofdgerecht (gehalveerd origineel)."
+  },
+  {
+    "id": "gekarameliseerde-venkel-geitenkaas",
+    "titel": "Gekarameliseerde venkel met geitenkaas (Ottolenghi)",
+    "bron": "Ottolenghi, Plenty",
+    "tijd": 25,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "venkel",
+        "hoeveelheid": "4 knollen"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "2 el",
+        "basis": true
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "3 el",
+        "basis": true
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "3 el",
+        "basis": true
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 teen"
+      },
+      {
+        "naam": "sjalot",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "dille",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "geitenkaas",
+        "hoeveelheid": "115 g, zacht"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "1 (rasp)"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Meng de suiker met ½ tl zout en wat peper.",
+      "Snijd de venkel in plakken van ruim 1 cm; houd wat venkelgroen apart.",
+      "Bak de venkel in 3 porties in steeds 1 el boter en 1 el olie op middelhoog vuur, ca. 2 min per kant tot lichtbruin.",
+      "Strooi het suikermengsel in de pan, 30 sec roeren, dan alle venkel terug en 1–2 min laten karameliseren.",
+      "Schep in een kom met knoflook, sjalotringen en dille.",
+      "Leg op een schaal en top met verkruimelde geitenkaas, citroenrasp, venkelgroen en een scheutje olijfolie."
+    ],
+    "notities": "Origineel gebruikt goat's curd; zachte geitenkaas werkt ook."
+  },
+  {
+    "id": "pasta-courgette-sojabonen",
+    "titel": "Pastasalade met gebakken courgette en sojabonen (Ottolenghi)",
+    "bron": "Ottolenghi, Plenty",
+    "tijd": 40,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "150 ml",
+        "basis": true
+      },
+      {
+        "naam": "courgette",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "rodewijnazijn",
+        "hoeveelheid": "1½ el"
+      },
+      {
+        "naam": "sojabonen",
+        "hoeveelheid": "110 g (edamame, gepeld)"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "grote bos"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "handje"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "80 ml",
+        "basis": true
+      },
+      {
+        "naam": "penne",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "1 (rasp)"
+      },
+      {
+        "naam": "kappertjes",
+        "hoeveelheid": "1½ el"
+      },
+      {
+        "naam": "buffelmozzarella",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Kook de pasta al dente, giet af en spoel koud.",
+      "Bak de courgette in plakjes van ½ cm in porties in de zonnebloemolie, ca. 3 min per kant tot bruin. Laat uitlekken en schep om met de azijn.",
+      "Blancheer de sojabonen 3 min, spoel koud.",
+      "Pureer de helft van de basilicum met de peterselie, olijfolie, zout en peper tot een gladde saus.",
+      "Meng pasta, courgette, sojabonen, kruidensaus, citroenrasp, kappertjes en gescheurde mozzarella. Breng goed op smaak.",
+      "Roer vlak voor serveren de rest van de basilicum erdoor."
+    ],
+    "notities": "Origineel met strozzapreti; penne werkt ook."
+  },
+  {
+    "id": "kikkererwten-puttanesca",
+    "titel": "Orecchiette puttanesca met krokante kikkererwten (Ottolenghi)",
+    "bron": "Ottolenghi, Flavour",
+    "tijd": 35,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "5 el",
+        "basis": true
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "6 tenen"
+      },
+      {
+        "naam": "kikkererwten",
+        "hoeveelheid": "1 blik (uitgelekt)"
+      },
+      {
+        "naam": "gerookte paprikapoeder",
+        "hoeveelheid": "2 tl (pikant)"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "grote bos"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "1 (rasp)"
+      },
+      {
+        "naam": "kappertjes",
+        "hoeveelheid": "4 el"
+      },
+      {
+        "naam": "kalamata-olijven",
+        "hoeveelheid": "handje",
+        "optioneel": true
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "2 tl",
+        "basis": true
+      },
+      {
+        "naam": "orecchiette",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "groentebouillon",
+        "hoeveelheid": "500 ml"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Bak in een diepe pan 3 el olie met knoflook, drooggedepte kikkererwten, paprikapoeder, komijn, tomatenpuree en ½ tl zout ca. 12 min op middelhoog vuur tot krokant. Houd een derde van de kikkererwten apart.",
+      "Meng gehakte peterselie, citroenrasp en kappertjes (en olijven). Doe twee derde hiervan in de pan met de tomaatjes en suiker en bak 2 min.",
+      "Voeg pasta, bouillon, 220 ml water en ¾ tl zout toe. Aan de kook brengen, afgedekt op middelhoog vuur 12–14 min koken tot de pasta al dente is.",
+      "Roer de rest van het peterseliemengsel erdoor, besprenkel met 2 el olie en serveer met de krokante kikkererwten en peper."
+    ],
+    "notities": "Vegetarische versie; het origineel gebruikt olijven (hier optioneel)."
   }
 ]
