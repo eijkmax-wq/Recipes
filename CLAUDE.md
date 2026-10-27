@@ -58,4 +58,4 @@ Zegt Max "X hoort (niet) in de voorraadkast", pas dan alleen `data/voorraadkast.
 
 Al beslist door Max als **géén** voorraadkast (niet opnieuw vragen): sjalot, lente-ui, kappertjes,
 olijven, jalapeños, harissa, zongedroogde tomaten, ingemaakte citroen, citroen, limoen, Noilly Prat,
-cognac, wijn, verse gember.
+cognac, wijn, verse gember, melk, eieren.
