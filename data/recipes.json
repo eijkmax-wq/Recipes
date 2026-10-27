@@ -1463,98 +1463,6 @@
     "notities": "Het origineel geeft geen hoeveelheden; deze zijn geschat voor 4 personen."
   },
   {
-    "id": "butter-chicken-20-min",
-    "titel": "Butter chicken in 20 minuten",
-    "bron": "https://gimmedelicious.com/easy-20-minute-butter-chicken/",
-    "tijd": 20,
-    "porties": 4,
-    "tags": [],
-    "kenmerken": {
-      "basis": "rijst",
-      "eiwit": "kip",
-      "karakter": [
-        "comfort",
-        "pittig"
-      ],
-      "gewicht": "zwaar"
-    },
-    "ingredienten": [
-      {
-        "naam": "zonnebloemolie",
-        "hoeveelheid": "1 el"
-      },
-      {
-        "naam": "boter",
-        "hoeveelheid": "1 el"
-      },
-      {
-        "naam": "ui",
-        "hoeveelheid": "1"
-      },
-      {
-        "naam": "gember",
-        "hoeveelheid": "1 tl vers, geraspt"
-      },
-      {
-        "naam": "knoflook",
-        "hoeveelheid": "2–3 tenen"
-      },
-      {
-        "naam": "kipfilet",
-        "hoeveelheid": "680 g (2–3 stuks)"
-      },
-      {
-        "naam": "tomatenpuree",
-        "hoeveelheid": "4 el"
-      },
-      {
-        "naam": "garam masala",
-        "hoeveelheid": "1 el"
-      },
-      {
-        "naam": "chilipoeder",
-        "hoeveelheid": "1 tl (of paprikapoeder)"
-      },
-      {
-        "naam": "fenegriek",
-        "hoeveelheid": "1 tl",
-        "optioneel": true
-      },
-      {
-        "naam": "komijn",
-        "hoeveelheid": "1 tl"
-      },
-      {
-        "naam": "zout",
-        "hoeveelheid": "1 tl"
-      },
-      {
-        "naam": "peper",
-        "hoeveelheid": "¼ tl"
-      },
-      {
-        "naam": "room",
-        "hoeveelheid": "240 ml"
-      },
-      {
-        "naam": "basmatirijst",
-        "hoeveelheid": "om erbij te serveren"
-      },
-      {
-        "naam": "naan",
-        "hoeveelheid": "om erbij te serveren",
-        "optioneel": true
-      }
-    ],
-    "bereiding": [
-      "Bak de ui in olie en boter op middelhoog vuur 3–4 min goudbruin. Voeg gember en knoflook toe en bak 30 sec al roerend.",
-      "Voeg de kip in blokjes van 2 cm, tomatenpuree en alle specerijen toe en bak 5–6 min tot de kip gaar is.",
-      "Roer de room erdoor en laat 8–10 min zachtjes pruttelen.",
-      "Serveer met rijst en/of naan."
-    ],
-    "notities": "Lichter: halfvolle room of yoghurt in plaats van room."
-  },
-  {
     "id": "moussaka",
     "titel": "Moussaka",
     "bron": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/",
@@ -2359,5 +2267,182 @@
       "Verdeel tomaten en vis over borden, giet het vocht erover, garneer met de rest van de koriander en serveer met partjes van de tweede limoen."
     ],
     "notities": ""
+  },
+  {
+    "id": "butter-chicken-murgh-makhani",
+    "titel": "Butter chicken (murgh makhani)",
+    "bron": "https://www.littlespicejar.com/finger-lickin-butter-chicken-murgh-makhani/",
+    "tijd": 60,
+    "porties": 5,
+    "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "kipfilet",
+        "hoeveelheid": "455 g (of kippendijen)"
+      },
+      {
+        "naam": "tandoori masala",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "1 tl + 1½ tl (pasta of fijn geraspt)"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 tl + 1½ tl (pasta of fijn geraspt)"
+      },
+      {
+        "naam": "yoghurt",
+        "hoeveelheid": "120 ml"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "2 el (of ghee)"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 grote"
+      },
+      {
+        "naam": "tomatenblokjes",
+        "hoeveelheid": "1 blik (400 g, liefst fijngemalen)"
+      },
+      {
+        "naam": "chilipoeder",
+        "hoeveelheid": "1 tl",
+        "optioneel": true
+      },
+      {
+        "naam": "gemalen koriander",
+        "hoeveelheid": "1½ tl"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1½ tl"
+      },
+      {
+        "naam": "room",
+        "hoeveelheid": "120 ml"
+      },
+      {
+        "naam": "garam masala",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "fenegriek",
+        "hoeveelheid": "¼ tl (gedroogde blaadjes)"
+      },
+      {
+        "naam": "basmatirijst",
+        "hoeveelheid": "om erbij te serveren"
+      },
+      {
+        "naam": "naan",
+        "hoeveelheid": "om erbij te serveren",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Marinade: klop tandoori masala, 1 tl gember, 1 tl knoflook, yoghurt en 1 el olie glad. Hussel de kip in blokjes van 4 cm erdoor en laat minstens 20 min (liefst 12–24 uur) marineren in de koelkast.",
+      "Verhit de boter in een braadpan op middelhoog vuur en bak de dun gesneden ui 5–7 min zacht en glazig, niet bruin.",
+      "Roer de rest van de gember en knoflook erdoor en bak 30 sec.",
+      "Voeg tomaten, chilipoeder, koriander en komijn toe en laat 5 min pruttelen (scheutje water erbij als het hard borrelt).",
+      "Haal van het vuur en pureer de saus glad (zo nodig met wat water). Kan tot 2 dagen vooruit.",
+      "Verhit 1 el olie in de pan. Schud overtollige marinade van de kip en bak de kip 5–6 min rondom bruin.",
+      "Voeg de saus toe en verwarm. Als het borrelt: room en garam masala erdoor.",
+      "Wrijf als het weer pruttelt de fenegriek tussen je vingers fijn boven de pan. Serveer met rijst of naan."
+    ],
+    "notities": "Plan vooruit: marineren kan het best een nacht (12–24 uur)."
+  },
+  {
+    "id": "yuxiang-aubergine",
+    "titel": "Yuxiang aubergine",
+    "bron": "Screenshot (Recepten)",
+    "tijd": 50,
+    "porties": 2,
+    "tags": [
+      "vega",
+      "vegan"
+    ],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "2"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "om te bakken"
+      },
+      {
+        "naam": "sambal",
+        "hoeveelheid": "1½ el"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "bouillon",
+        "hoeveelheid": "150 ml (groente)"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "4 tl"
+      },
+      {
+        "naam": "sojasaus",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "maizena",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "Chinkiang-azijn",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "lente-ui",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "1 el, fijngesneden"
+      }
+    ],
+    "bereiding": [
+      "Snijd de aubergine in staafjes, bestrooi met zout en laat 30 min staan zodat het vocht eruit trekt. Dep droog.",
+      "Bak de aubergine goudbruin in zonnebloemolie en zet apart.",
+      "Bak de sambal 2 min in de pan. Voeg de fijngesneden knoflook en gember toe.",
+      "Voeg bouillon, suiker en sojasaus toe, breng aan de kook en doe de aubergine terug in de pan.",
+      "Meng de maizena met een klein beetje water en roer het mengsel erdoor tot de saus bindt.",
+      "Voeg als laatste de Chinkiang-azijn en de fijngesneden lente-ui toe."
+    ],
+    "notities": "Lekker met witte rijst."
   }
 ]
