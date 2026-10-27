@@ -1832,5 +1832,162 @@
       "Serveer met de rest van de pesto ernaast."
     ],
     "notities": ""
+  },
+  {
+    "id": "rendang-daging",
+    "titel": "Rendang daging (runderrendang)",
+    "bron": "NYT Cooking",
+    "tijd": 180,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "rode peper",
+        "hoeveelheid": "7 lange (ca. 115 g)"
+      },
+      {
+        "naam": "sjalot",
+        "hoeveelheid": "6"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "5 tenen"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "8 cm vers"
+      },
+      {
+        "naam": "galanga",
+        "hoeveelheid": "8 cm",
+        "optioneel": true
+      },
+      {
+        "naam": "kurkuma",
+        "hoeveelheid": "1 tl gemalen (of 3 cm vers)"
+      },
+      {
+        "naam": "gemalen koriander",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "runderstoofvlees",
+        "hoeveelheid": "1 kg (bv. schenkel of borst)"
+      },
+      {
+        "naam": "kokosmelk",
+        "hoeveelheid": "790 ml (vol)"
+      },
+      {
+        "naam": "citroengras",
+        "hoeveelheid": "2 stengels"
+      },
+      {
+        "naam": "kaffirlimoenblaadjes",
+        "hoeveelheid": "5",
+        "optioneel": true
+      },
+      {
+        "naam": "laurier",
+        "hoeveelheid": "3 blaadjes"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1 tl"
+      }
+    ],
+    "bereiding": [
+      "Kruidenpasta: pureer pepers (zonder zaadjes voor minder pit), sjalotten, knoflook, gember, galanga, kurkuma, koriander en komijn in een kleine keukenmachine tot een gladde pasta. Te grof? Voeg een scheutje van de kokosmelk toe.",
+      "Snijd overtollig vet van het vlees en snijd het in stukken van 4 cm. Doe in een zware braadpan.",
+      "Roer de kruidenpasta, kokosmelk, gekneusd en geknoopt citroengras, limoenblaadjes, laurier en zout erdoor. Aan de kook brengen en 2–2½ uur zachtjes laten sudderen tot het vlees mals is; elke 20 min roeren zodat niets aanbakt.",
+      "Na 2–2½ uur komt de olie uit de kokosmelk boven drijven als roodoranje laagje. Haal het citroengras eruit.",
+      "Zet het vuur middelhoog en roer de rendang ca. 15 min continu tot de saus dik en diepbruin is en het vlees de saus opneemt en karamelliseert. Proef en breng op smaak."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "romige-pittige-tomatenbonen",
+    "titel": "Romige pittige tomatenbonen met rucola",
+    "bron": "NYT Cooking",
+    "tijd": 25,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "6 el"
+      },
+      {
+        "naam": "panko",
+        "hoeveelheid": "55 g"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "4 tenen"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "90 g"
+      },
+      {
+        "naam": "witte bonen",
+        "hoeveelheid": "2 blikken (cannellini)"
+      },
+      {
+        "naam": "room",
+        "hoeveelheid": "235 ml"
+      },
+      {
+        "naam": "zongedroogde tomaten",
+        "hoeveelheid": "80 g (op olie)"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "65 g (of pecorino)"
+      },
+      {
+        "naam": "rucola",
+        "hoeveelheid": "85 g"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "brood",
+        "hoeveelheid": "geroosterd, om erbij te serveren",
+        "optioneel": true
+      }
+    ],
+    "bereiding": [
+      "Verhit 2 el olie in een middelgrote koekenpan op middelhoog vuur. Bak de panko met zout en peper al roerend ca. 3 min goudbruin. Op keukenpapier leggen en de pan schoonvegen.",
+      "Verhit nog 2 el olie, bak ui, knoflook en chilivlokken met zout en peper ca. 4 min zacht.",
+      "Voeg de tomatenpuree toe en roer ca. 3 min tot hij donkerder wordt.",
+      "Roer de afgespoelde bonen, room, gehakte zongedroogde tomaten en 80 ml water erdoor en laat ca. 5 min pruttelen. Roer de helft van de kaas erdoor en breng op smaak.",
+      "Hussel de rucola met de panko, 2 tl citroenrasp, 4 tl citroensap, de rest van de kaas en 2 el olie; op smaak brengen. Schep in het midden op de bonen en serveer met geroosterd brood."
+    ],
+    "notities": ""
   }
 ]
