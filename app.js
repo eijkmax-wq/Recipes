@@ -125,6 +125,7 @@ function alleIngredienten() {
   const set = new Map();
   for (const r of recepten) for (const i of r.ingredienten) if (!i.basis) set.set(norm(i.naam), i.naam);
   for (const e of staat.extra) set.set(norm(e), e);
+  for (const t of staat.thuis) if (!set.has(norm(t))) set.set(norm(t), t); // aangevinkt maar in geen recept meer
   return [...set.values()].sort((a, b) => a.localeCompare(b));
 }
 
@@ -132,6 +133,7 @@ function toonThuis() {
   const alles = alleIngredienten();
   $("#alleIngredienten").innerHTML = alles.map((n) => `<option value="${esc(n)}">`).join("");
   const aan = new Set(staat.thuis.map(norm));
+  alles.sort((a, b) => aan.has(norm(b)) - aan.has(norm(a)) || a.localeCompare(b)); // aangevinkt bovenaan
   $("#thuisLijst").innerHTML = `<p class="muted">${staat.thuis.length} aangevinkt</p>` +
     alles.map((n) => `<label class="vink"><input type="checkbox" data-naam="${esc(n)}" ${aan.has(norm(n)) ? "checked" : ""}> ${esc(n)}</label>`).join("");
 }
