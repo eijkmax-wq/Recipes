@@ -5,14 +5,38 @@
     "bron": "Voorbeeldrecept",
     "tijd": 15,
     "porties": 2,
-    "tags": ["vega", "pasta", "snel"],
+    "tags": [
+      "vega",
+      "pasta",
+      "snel"
+    ],
     "ingredienten": [
-      { "naam": "pasta", "hoeveelheid": "200 g" },
-      { "naam": "groene pesto", "hoeveelheid": "4 el" },
-      { "naam": "cherrytomaten", "hoeveelheid": "250 g" },
-      { "naam": "parmezaan", "hoeveelheid": "30 g" },
-      { "naam": "pijnboompitten", "hoeveelheid": "2 el", "optioneel": true },
-      { "naam": "zout", "hoeveelheid": "snufje", "basis": true }
+      {
+        "naam": "pasta",
+        "hoeveelheid": "200 g"
+      },
+      {
+        "naam": "groene pesto",
+        "hoeveelheid": "4 el"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "30 g"
+      },
+      {
+        "naam": "pijnboompitten",
+        "hoeveelheid": "2 el",
+        "optioneel": true
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "snufje",
+        "basis": true
+      }
     ],
     "bereiding": [
       "Kook de pasta in ruim water met zout.",
@@ -28,17 +52,51 @@
     "bron": "Voorbeeldrecept",
     "tijd": 25,
     "porties": 2,
-    "tags": ["vega", "eieren", "comfort"],
+    "tags": [
+      "vega",
+      "eieren",
+      "comfort"
+    ],
     "ingredienten": [
-      { "naam": "ui", "hoeveelheid": "1" },
-      { "naam": "knoflook", "hoeveelheid": "2 tenen" },
-      { "naam": "paprika", "hoeveelheid": "1" },
-      { "naam": "tomatenblokjes", "hoeveelheid": "1 blik" },
-      { "naam": "eieren", "hoeveelheid": "4" },
-      { "naam": "komijn", "hoeveelheid": "1 tl" },
-      { "naam": "feta", "hoeveelheid": "50 g", "optioneel": true },
-      { "naam": "olijfolie", "hoeveelheid": "2 el", "basis": true },
-      { "naam": "zout", "hoeveelheid": "naar smaak", "basis": true }
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "paprika",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "tomatenblokjes",
+        "hoeveelheid": "1 blik"
+      },
+      {
+        "naam": "eieren",
+        "hoeveelheid": "4"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "feta",
+        "hoeveelheid": "50 g",
+        "optioneel": true
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "2 el",
+        "basis": true
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
     ],
     "bereiding": [
       "Fruit ui, knoflook en paprika in olijfolie zacht in een koekenpan.",
@@ -47,5 +105,100 @@
       "Verkruimel de feta erover en eet met brood."
     ],
     "notities": "Voorbeeld — mag je verwijderen."
+  },
+  {
+    "id": "quesadillas-zwarte-bonen-ottolenghi",
+    "titel": "Quesadillas met zwarte bonen (Ottolenghi)",
+    "bron": "Ottolenghi, Plenty",
+    "tijd": 30,
+    "porties": 4,
+    "tags": [
+      "vega",
+      "mexicaans",
+      "comfort"
+    ],
+    "ingredienten": [
+      {
+        "naam": "zwarte bonen",
+        "hoeveelheid": "230 g (uitgelekt, uit blik)"
+      },
+      {
+        "naam": "gemalen koriander",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "cayennepeper",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "2 bosjes"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "1½"
+      },
+      {
+        "naam": "rode ui",
+        "hoeveelheid": "½ kleine"
+      },
+      {
+        "naam": "witte wijnazijn",
+        "hoeveelheid": "½ el"
+      },
+      {
+        "naam": "lente-ui",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "tomaten",
+        "hoeveelheid": "5 middelgrote"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 teen"
+      },
+      {
+        "naam": "rode peper",
+        "hoeveelheid": "1 milde"
+      },
+      {
+        "naam": "avocado",
+        "hoeveelheid": "2 rijpe"
+      },
+      {
+        "naam": "tortilla's",
+        "hoeveelheid": "8 kleine (mais of tarwe)"
+      },
+      {
+        "naam": "zure room",
+        "hoeveelheid": "180 ml"
+      },
+      {
+        "naam": "cheddar",
+        "hoeveelheid": "120 g, geraspt"
+      },
+      {
+        "naam": "jalapeños",
+        "hoeveelheid": "6 el (uit pot)"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak",
+        "basis": true
+      }
+    ],
+    "bereiding": [
+      "Bonenpasta: pureer de zwarte bonen grof met de gemalen koriander, komijn, cayennepeper, 1 bosje gehakte koriander (met steeltjes), het sap van 1 limoen en ½ tl zout.",
+      "Salsa: laat de dun gesneden rode ui een paar minuten weken in de azijn. Roer er lente-ui, tomaatblokjes, knoflook, fijngesneden rode peper, de rest van de koriander (houd wat blaadjes apart), het sap van ½ limoen, zout en de avocadoblokjes door.",
+      "Smeer ca. 2 el bonenpasta op een tortilla en schep er wat zure room, salsa, gehakte jalapeños en cheddar op. Leg er een tweede tortilla op en druk licht aan. Herhaal met de rest.",
+      "Bak de quesadillas in een droge koekenpan op middelhoog vuur aan beide kanten goudbruin, tot de kaas gesmolten is.",
+      "Snijd in punten en serveer met de rest van de salsa en wat korianderblaadjes."
+    ],
+    "notities": "Uit Plenty. Tortilla's van mais werken het best, tarwe kan ook."
   }
 ]
