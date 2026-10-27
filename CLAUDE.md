@@ -55,3 +55,6 @@ Regels:
 
 Recepten wijzigen of verwijderen gaat op dezelfde manier: pas `data/recipes.json` aan, commit, push.
 Zegt Max "X hoort (niet) in de voorraadkast", pas dan alleen `data/voorraadkast.json` aan.
+
+Al beslist door Max als **géén** voorraadkast (niet opnieuw vragen): sjalot, lente-ui, kappertjes,
+olijven, jalapeños, harissa, zongedroogde tomaten, ingemaakte citroen, citroen, limoen.
