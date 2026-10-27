@@ -1989,5 +1989,127 @@
       "Hussel de rucola met de panko, 2 tl citroenrasp, 4 tl citroensap, de rest van de kaas en 2 el olie; op smaak brengen. Schep in het midden op de bonen en serveer met geroosterd brood."
     ],
     "notities": ""
+  },
+  {
+    "id": "gochujang-bolognese",
+    "titel": "Pittige romige gochujang-bolognese",
+    "bron": "NYT Cooking (Spicy, Creamy Weeknight Bolognese)",
+    "tijd": 30,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "rundergehakt",
+        "hoeveelheid": "455 g (min. 20% vet)"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 grote"
+      },
+      {
+        "naam": "wortel",
+        "hoeveelheid": "2"
+      },
+      {
+        "naam": "gochujang",
+        "hoeveelheid": "2½ grote el"
+      },
+      {
+        "naam": "tomatensaus",
+        "hoeveelheid": "1 blik (445 ml)"
+      },
+      {
+        "naam": "pasta",
+        "hoeveelheid": "455 g (korte, gekrulde, bv. pipette)"
+      },
+      {
+        "naam": "room",
+        "hoeveelheid": "235 ml"
+      }
+    ],
+    "bereiding": [
+      "Breng een grote pan water met zout aan de kook.",
+      "Verhit intussen een zware braadpan op hoog vuur tot hij heel heet is. Druk het gehakt in één laag uit, bestrooi met zout en peper en bak al roerend 4–5 min tot het in kleine stukjes uiteenvalt en gaar is.",
+      "Schuif het vlees opzij en bak de fijngehakte ui en wortel in het vet aan de andere kant, met zout en peper, ca. 5 min tot de ui glazig is; af en toe met het vlees omscheppen.",
+      "Voeg de gochujang toe en roer 2–3 min tot hij donkerder wordt. Giet de tomatensaus erbij, spoel het blik voor een derde om met water en giet dat ook in de pan. Aan de kook brengen en op laag vuur laten pruttelen terwijl de pasta kookt.",
+      "Kook de pasta al dente. Bewaar 120 ml kookwater, giet af en doe de pasta bij de saus.",
+      "Roer de room erdoor en breng op smaak. Voor een dunnere saus wat kookwater erbij. Direct serveren."
+    ],
+    "notities": "Max' versie: gochujang in plaats van 2–3 el rode currypasta (5 grote lepels voor een dubbel recept)."
+  },
+  {
+    "id": "kokosvis-tomaat-oven",
+    "titel": "Vis met kokos en tomaat uit de oven",
+    "bron": "NYT Cooking (Coconut Fish and Tomato Bake)",
+    "tijd": 45,
+    "porties": 4,
+    "tags": [],
+    "ingredienten": [
+      {
+        "naam": "kokosmelk",
+        "hoeveelheid": "175 ml (ongezoet)"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "3 cm vers"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "1 teen"
+      },
+      {
+        "naam": "kurkuma",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "honing",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1 tl + naar smaak"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "2"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "20 g"
+      },
+      {
+        "naam": "visfilet",
+        "hoeveelheid": "4 × 170 g (bv. kabeljauw, schelvis, zalm)"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "600 g"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "3 el"
+      }
+    ],
+    "bereiding": [
+      "Klop in een grote kom kokosmelk, geraspte gember, geraspte knoflook, kurkuma, chilivlokken, honing en 1 tl zout door elkaar. Rasp en pers 1 limoen erboven uit en roer de helft van de koriander (gehakt) erdoor.",
+      "Leg de vis erin, keer om en laat 15–30 min marineren in de koelkast.",
+      "Oven op 220 °C; zet een rooster in het midden-onder en een vlak onder de grill.",
+      "Leg de tomaatjes op een grote bakplaat, besprenkel met 2 el olie en zout en schep om. Leg de vis ertussen, schep alle marinade erover en besprenkel met 1 el olie. Rooster 8–10 min op het onderste rooster tot de buitenkant van de vis wit is maar de kern nog niet gaar.",
+      "Zet de grill op hoog en schuif de plaat eronder. Gril 5–6 min (één keer draaien) tot de vis gaar is en de tomaten bruine plekjes krijgen.",
+      "Verdeel tomaten en vis over borden, giet het vocht erover, garneer met de rest van de koriander en serveer met partjes van de tweede limoen."
+    ],
+    "notities": ""
   }
 ]
