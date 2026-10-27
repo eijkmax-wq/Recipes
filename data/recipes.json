@@ -2449,7 +2449,7 @@
     "id": "kip-rijst-gekarameliseerde-citroen",
     "titel": "Kip met rijst en gekarameliseerde citroen (one-pot)",
     "bron": "NYT Cooking",
-    "tijd": 55,
+    "tijd": 50,
     "porties": 4,
     "tags": [],
     "kenmerken": {
@@ -2464,7 +2464,7 @@
     "ingredienten": [
       {
         "naam": "kippendijen",
-        "hoeveelheid": "4 met bot en vel (ca. 680 g)"
+        "hoeveelheid": "6 met bot en vel (ca. 1 kg)"
       },
       {
         "naam": "zout",
@@ -2518,13 +2518,13 @@
     "bereiding": [
       "Oven op 205 °C. Dep de kippendijen goed droog en bestrooi met 1 tl zout, 1 tl peper, 1 tl oregano en een snufje chilivlokken.",
       "Verhit de olie een paar minuten in een grote braadpan op middelhoog vuur. Leg de kip erin met het vel naar beneden en bak zonder te bewegen ca. 5 min tot ze vanzelf loslaten. Haal eruit.",
-      "Snijd 1 citroen in plakjes van 6 mm, bak ze ca. 2 min in de pan tot gekarameliseerd en zacht, en haal eruit.",
+      "Snijd 1 citroen in plakjes van 6 mm en kook ze eerst 2 min in water (tegen het bittere); laat uitlekken. Bak ze daarna ca. 2 min in de pan tot gekarameliseerd en zacht, en haal eruit.",
       "Doe de gekneusde, grof gehakte olijven, knoflook, sjalot, de rest van de oregano en wat zout en peper in de pan. Bak 2–3 min op middel-laag vuur en schraap de aanbaksels los.",
       "Zet het vuur hoog, voeg de afgespoelde rijst en de bouillon toe en roer. Breng afgedekt aan de kook (ca. 5 min).",
-      "Haal van het vuur, leg de kip met het vel naar boven op de rijst en de citroenplakjes erop. Met deksel 25–30 min in de oven tot rijst en kip gaar zijn.",
+      "Haal van het vuur, leg de kip met het vel naar boven op de rijst en de citroenplakjes erop. Met deksel ca. 20–25 min in de oven tot rijst en kip gaar zijn.",
       "Serveer met peterselie en een kneepje sap van de tweede citroen."
     ],
-    "notities": ""
+    "notities": "Max' aanpassingen: meer kip (6 i.p.v. 4 dijen), iets korter in de oven, citroenplakjes eerst koken."
   },
   {
     "id": "somen-noedelsoep-paddenstoelen-miso",
@@ -2599,5 +2599,171 @@
       "Schep de bouillon in de kommen, bestrooi met het groen van de lente-ui en de sesamzaadjes en besprenkel met wat sesamolie."
     ],
     "notities": "Max' versie: met miso en sesamzaad (niet in het origineel)."
+  },
+  {
+    "id": "pasteitjes-kip-ui-marokkaans",
+    "titel": "Pasteitjes met kip en ui in Marokkaanse smaken",
+    "bron": "Kookboek (foto)",
+    "tijd": 50,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "brood",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "bladerdeeg",
+        "hoeveelheid": "320 g roomboter (of 8 plakjes diepvries)"
+      },
+      {
+        "naam": "eieren",
+        "hoeveelheid": "1 dooier"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "2 grote (ca. 430 g)"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "4 el + extra om in te vetten"
+      },
+      {
+        "naam": "gemberpoeder",
+        "hoeveelheid": "¼ tl"
+      },
+      {
+        "naam": "kaneel",
+        "hoeveelheid": "1½ tl + extra"
+      },
+      {
+        "naam": "amandelen",
+        "hoeveelheid": "50 g blanke, grof gehakt"
+      },
+      {
+        "naam": "kippendijen",
+        "hoeveelheid": "6 filets zonder bot"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "1–2 el sap"
+      },
+      {
+        "naam": "sinaasappel",
+        "hoeveelheid": "½ (rasp)"
+      },
+      {
+        "naam": "ingemaakte citroen",
+        "hoeveelheid": "½, in kleine stukjes",
+        "optioneel": true
+      },
+      {
+        "naam": "poedersuiker",
+        "hoeveelheid": "om te bestuiven"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "bosje (25 g)"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Oven op 160 °C. Haal het bladerdeeg ca. 20 min van tevoren uit de koelkast.",
+      "Rol het deeg uit op een licht ingevette bakplaat en snijd in 8 vierkantjes (niet nodig bij plakjes). Bestrijk de bovenkant met eidooier losgeklopt met een beetje water en bak 15–20 min goudbruin.",
+      "Doe de halve uienringen met de olie in een grote koekenpan, deksel erop en laat ca. 10 min op laag vuur zacht stoven; regelmatig roeren.",
+      "Roer gember en kaneel erdoor, dan de amandelen en de kip in blokjes. Breng op smaak met zout en peper en bak 7–8 min tot de kip zacht en lichtbruin is.",
+      "Voeg citroensap, sinaasappelrasp en eventueel de gekookte citroen toe, plus 3–4 el water, en kook ca. 5 min door.",
+      "Bestuif de plakjes bladerdeeg licht met poedersuiker en maak met kaneel een ruitpatroon erop.",
+      "Roer de koriander door de kip en serveer heet, met twee plakjes bladerdeeg aan de zijkant van elk bord."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "thaise-tomaten-courgettesalade",
+    "titel": "Thaise tomaten-courgettesalade",
+    "bron": "Kookboek (foto)",
+    "tijd": 25,
+    "porties": 4,
+    "tags": [
+      "vega",
+      "vegan"
+    ],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vega",
+      "karakter": [
+        "fris",
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "Thaise pepers",
+        "hoeveelheid": "3 (rawits)"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "sojasaus",
+        "hoeveelheid": "3½ el (licht)"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "3 (4 el sap)"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "4 el (koolzaadolie)"
+      },
+      {
+        "naam": "bruine suiker",
+        "hoeveelheid": "1½ tl (palm- of lichte basterdsuiker)"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "500 g"
+      },
+      {
+        "naam": "courgette",
+        "hoeveelheid": "2 (ca. 400 g)"
+      },
+      {
+        "naam": "Thaise basilicum",
+        "hoeveelheid": "grote handvol (10 g)"
+      },
+      {
+        "naam": "pinda's",
+        "hoeveelheid": "40 g gezouten"
+      },
+      {
+        "naam": "broodkruimels",
+        "hoeveelheid": "40 g gedroogd"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "¼ tl"
+      }
+    ],
+    "bereiding": [
+      "Dressing: hak 2 rawits grof en pureer ze in een blender met de knoflook, sojasaus, limoensap, 2 el olie en de suiker. Of stamp pepers en knoflook in een vijzel tot pasta en meng de rest erdoor.",
+      "Leg de gehalveerde tomaatjes in een grote kom en kneus ze licht met je hand. Schenk de dressing erover. Leg de courgette in julienne erop (nog niet mengen) en strooi de gescheurde basilicum erover.",
+      "Pinda-broodkruimels: verhit 2 el olie in een koekenpan op middelhoog vuur. Hak de laatste rawit heel fijn en bak met de gestampte pinda's, broodkruimels en zout ca. 4 min goudbruin. Van het vuur halen.",
+      "Meng vlak voor serveren courgette en basilicum door de tomaten en schep op een schaal met opstaande rand. Strooi de broodkruimels er op het laatst over (of laat ieder dat zelf doen)."
+    ],
+    "notities": "Bijgerecht. Hoe langer de salade staat, hoe meer vocht de courgette loslaat: pas vlak voor serveren mengen. Serveer koud."
   }
 ]
