@@ -2765,5 +2765,535 @@
       "Meng vlak voor serveren courgette en basilicum door de tomaten en schep op een schaal met opstaande rand. Strooi de broodkruimels er op het laatst over (of laat ieder dat zelf doen)."
     ],
     "notities": "Bijgerecht. Hoe langer de salade staat, hoe meer vocht de courgette loslaat: pas vlak voor serveren mengen. Serveer koud."
+  },
+  {
+    "id": "tagliatelle-ragu-bolognese",
+    "titel": "Tagliatelle con ragù alla bolognese",
+    "bron": "Kookboek (foto)",
+    "tijd": 150,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "tagliatelle",
+        "hoeveelheid": "400 g (of paccheri/rigatoni)"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "50 ml"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "50 g"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 middelgrote"
+      },
+      {
+        "naam": "wortel",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "bleekselderij",
+        "hoeveelheid": "1 stengel"
+      },
+      {
+        "naam": "pancetta",
+        "hoeveelheid": "100 g"
+      },
+      {
+        "naam": "rundergehakt",
+        "hoeveelheid": "200 g, grof"
+      },
+      {
+        "naam": "half-om-halfgehakt",
+        "hoeveelheid": "400 g, grof"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "10 g + extra"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "witte wijn",
+        "hoeveelheid": "150 ml"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "gepelde tomaten",
+        "hoeveelheid": "1½ blik (600 g)"
+      },
+      {
+        "naam": "melk",
+        "hoeveelheid": "100 ml (vol)"
+      },
+      {
+        "naam": "laurier",
+        "hoeveelheid": "1 blaadje"
+      },
+      {
+        "naam": "runderbouillon",
+        "hoeveelheid": "100 ml"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "50 g, geraspt"
+      }
+    ],
+    "bereiding": [
+      "Soffritto: laat een pan met dikke bodem heet worden met de olie en boter. Fruit ui, wortel en bleekselderij fijngesneden op laag vuur minstens 10 min geurig en glazig. Voeg de pancetta toe en bak 2 min mee.",
+      "Bak intussen in een aparte pan het gehakt op hoog vuur in wat olijfolie met zout en peper; maak het rul met een houten lepel. Blus af met de wijn als het mooi bruin is.",
+      "Voeg de tomatenpuree toe, losgeroerd met een beetje bouillon, en bak even mee. Doe alles bij de soffritto.",
+      "Voeg tomaten, melk en laurier toe. Aan de kook brengen, deksel erop, vuur op de allerlaagste stand en 2 uur (of langer) laten sudderen. Wordt de ragù te droog, voeg dan bouillon of water toe. Op smaak brengen met zout en peper.",
+      "Haal de helft van de saus uit de pan om in te vriezen.",
+      "Kook de pasta al dente in 4 l water met 2 afgestreken el zout. Verse pasta: nog 1 min nadat hij bovenkomt drijven.",
+      "Haal de pasta met een tang uit het water en roer door de saus, eventueel met wat kookwater. Serveer met de parmezaan."
+    ],
+    "notities": "Het recept geeft saus voor 8 personen; de helft kun je invriezen."
+  },
+  {
+    "id": "spaghetti-provencaalse-garnalen",
+    "titel": "Spaghetti met Provençaalse garnalen",
+    "bron": "Kookboek (foto)",
+    "tijd": 40,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vis",
+      "karakter": [
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "tomaten",
+        "hoeveelheid": "500 g rijpe"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "2 el + 2 el extra vergine"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "witte wijn",
+        "hoeveelheid": "200 ml (droog)"
+      },
+      {
+        "naam": "gedroogde tijm",
+        "hoeveelheid": "3 takjes verse, alleen blaadjes (of 1 tl gedroogd)"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "1–2 tl"
+      },
+      {
+        "naam": "chilipoeder",
+        "hoeveelheid": "snuf"
+      },
+      {
+        "naam": "gamba's",
+        "hoeveelheid": "500 g rauw, gepeld"
+      },
+      {
+        "naam": "visbouillonblokjes",
+        "hoeveelheid": "2"
+      },
+      {
+        "naam": "spaghetti",
+        "hoeveelheid": "400 g"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "3 el, fijngehakt"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Snijd de tomaten in vieren, verwijder de harde stukjes bij de steelaanzet en maal ze in een keukenmachine tot een romige saus.",
+      "Bak de ui in de olijfolie in een ruime pan op laag vuur zacht; regelmatig roeren. Voeg de knoflook toe en als die begint te kleuren de tomaten, wijn, tijm, suiker, chilipeper en wat zout.",
+      "Laat zonder deksel ca. 20 min zachtjes doorkoken tot de saus is ingekookt. Voeg de garnalen toe en kook 1 min mee tot ze roze zijn.",
+      "Breng een grote pan water aan de kook met de bouillonblokjes en een beetje zout (niet te veel, de blokjes zijn al zout). Kook de spaghetti hierin al dente en giet af.",
+      "Serveer de pasta met de saus erdoorheen, druppel er extra vergine olijfolie overheen en strooi de peterselie erover."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "groentepaella",
+    "titel": "Groentepaella",
+    "bron": "Kookboek (foto)",
+    "tijd": 50,
+    "porties": 2,
+    "tags": [
+      "vega",
+      "vegan"
+    ],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "½ Spaanse"
+      },
+      {
+        "naam": "rode paprika",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "gele paprika",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "venkel",
+        "hoeveelheid": "½ knol"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "laurier",
+        "hoeveelheid": "2 blaadjes"
+      },
+      {
+        "naam": "gerookte paprikapoeder",
+        "hoeveelheid": "¼ tl"
+      },
+      {
+        "naam": "kurkuma",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "cayennepeper",
+        "hoeveelheid": "¼ tl"
+      },
+      {
+        "naam": "paellarijst",
+        "hoeveelheid": "150 g (calasparra)"
+      },
+      {
+        "naam": "sherry",
+        "hoeveelheid": "1 dl (medium)"
+      },
+      {
+        "naam": "saffraan",
+        "hoeveelheid": "1 tl draadjes"
+      },
+      {
+        "naam": "groentebouillon",
+        "hoeveelheid": "4½ dl, kokend"
+      },
+      {
+        "naam": "tuinbonen",
+        "hoeveelheid": "200 g (vers of diepvries)"
+      },
+      {
+        "naam": "minipomodori",
+        "hoeveelheid": "12"
+      },
+      {
+        "naam": "artisjokken",
+        "hoeveelheid": "5 kleine gegrilde, uit pot"
+      },
+      {
+        "naam": "kalamata-olijven",
+        "hoeveelheid": "15, ontpit"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "2 el, grof gesneden"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "4 parten"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "¾ tl + naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Verhit de olijfolie in een paellapan of grote koekenpan en smoor de ui 5 min. Voeg de paprika's en venkel (in lucifers) toe en bak ca. 6 min op halfhoog vuur tot gaar en goudgeel. Bak de knoflook 1 min mee.",
+      "Roer laurier, paprikapoeder, kurkuma en cayennepeper door de groenten. Voeg de rijst toe en roer 2 min voor je de sherry en saffraan toevoegt. Laat 1 min inkoken.",
+      "Roer de bouillon en ¾ tl zout door het rijstmengsel. Vuur heel laag en 20 min zachtjes laten pruttelen tot de rijst het grootste deel van het vocht heeft opgenomen. Geen deksel erop en vooral niet roeren.",
+      "Giet intussen kokend water over de tuinbonen, laat een minuutje staan, giet af en laat afkoelen. Druk de boontjes uit de vliezen.",
+      "Neem de paella van het vuur. Proef en voeg eventueel zout toe, maar roer niet te veel. Strooi de gehalveerde tomaatjes, de in vieren gesneden artisjokken en de tuinbonen over de rijst en dek de pan goed af met aluminiumfolie. Laat 10 min staan.",
+      "Haal de folie eraf, bestrooi met olijven en peterselie en dien op met de partjes citroen."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "itamars-bulgurpilaf",
+    "titel": "Itamars bulgurpilaf",
+    "bron": "Kookboek (foto)",
+    "tijd": 40,
+    "porties": 5,
+    "tags": [
+      "vega",
+      "vegan"
+    ],
+    "kenmerken": {
+      "basis": "graan",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "6 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "4 kleine witte"
+      },
+      {
+        "naam": "rode paprika",
+        "hoeveelheid": "3"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "2½ el"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "roze peperkorrels",
+        "hoeveelheid": "2 tl"
+      },
+      {
+        "naam": "korianderzaad",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "krenten",
+        "hoeveelheid": "100 g"
+      },
+      {
+        "naam": "bulgur",
+        "hoeveelheid": "400 g middelfijne"
+      },
+      {
+        "naam": "bieslook",
+        "hoeveelheid": "handvol"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Verhit de olijfolie in een pan en smoor de uien in dunne ringen en de paprika's in smalle repen samen 12–15 min op halfhoog tot hoog vuur tot de uien glazig zijn.",
+      "Voeg tomatenpuree, suiker, de specerijen en de krenten toe en blijf nog 2 min roeren.",
+      "Doe de bulgur, 4 dl water en wat zout en peper in de pan. Roer alles door elkaar en breng aan de kook.",
+      "Zet zodra het water kookt het deksel op de pan, neem hem van het vuur en laat minstens 20 min met rust.",
+      "Haal de bulgurkorrels los met een vork en roer het geknipte bieslook erdoor. Te droog? Scheutje olijfolie erbij. Proef en breng op smaak. Warm opdienen."
+    ],
+    "notities": "Lekker bij een frittata met Griekse yoghurt, of als bijgerecht."
+  },
+  {
+    "id": "aubergines-vleesvulling",
+    "titel": "Gevulde aubergines met vleesvulling (berenjenas rellenas)",
+    "bron": "Kookboek (foto)",
+    "tijd": 70,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "aubergine",
+        "hoeveelheid": "2 middelgrote, lang (ca. 500 g)"
+      },
+      {
+        "naam": "water",
+        "hoeveelheid": "1½ dl"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "3–4 el"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "broodkruimels",
+        "hoeveelheid": "4 el vers"
+      },
+      {
+        "naam": "melk",
+        "hoeveelheid": "4 el vol"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 middelgrote"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "gehakt",
+        "hoeveelheid": "2 el (rundergehakt)"
+      },
+      {
+        "naam": "varkensgehakt",
+        "hoeveelheid": "250 g"
+      },
+      {
+        "naam": "tomaten",
+        "hoeveelheid": "1 middelgrote"
+      },
+      {
+        "naam": "kaneel",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "¾ tl gemalen"
+      },
+      {
+        "naam": "eieren",
+        "hoeveelheid": "1, losgeklopt"
+      },
+      {
+        "naam": "manchego",
+        "hoeveelheid": "50 g, geraspt (of mahón)"
+      }
+    ],
+    "bereiding": [
+      "Halveer de aubergines in de lengte en snijd het vruchtvlees in. Doe het water en 1 el olie in een grote pan, leg de aubergines met de snijkant naar onder erin, zout en peper erop en deksel erop. Breng aan de kook en stoom ze 5–8 minuten zacht; controleer met een mes of ze zacht genoeg zijn. Laat ze afkoelen.",
+      "Week de broodkruimels in de melk.",
+      "Fruit de uisnippers in een andere koekenpan met de rest van de olie tot ze zacht zijn en kleur gaan krijgen. Roer er 30 seconden de knoflook door, voeg het gehakt toe en laat alles 3–5 minuten pruttelen.",
+      "Lepel het vruchtvlees uit de aubergines, hak het grof en meng het met de uitgeknepen broodkruimels.",
+      "Doe het gehakt erbij met zout, peper, kaneel en komijn en roer 5–8 minuten tot het gehakt rul is en van kleur verandert. Doe de auberginepulp en het broodkruim erbij en blijf roeren tot al het vocht verdampt is.",
+      "Roer er van het vuur af het ei door. Vul de halve aubergines met dit mengsel, bestrooi met de kaas en zet ze ca. 20 minuten in een oven van 180 °C. Dien heet op."
+    ],
+    "notities": "Van de Balearen. Kan als voor- of hoofdgerecht."
+  },
+  {
+    "id": "viskoekjes-harissa-saffraan",
+    "titel": "Viskoekjes met harissa en saffraan",
+    "bron": "Kookboek (foto)",
+    "tijd": 30,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "vis",
+      "karakter": [
+        "pittig"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "saffraan",
+        "hoeveelheid": "½ envelopje draadjes"
+      },
+      {
+        "naam": "witvisfilet",
+        "hoeveelheid": "500 g (kabeljauw of tilapia)"
+      },
+      {
+        "naam": "witbrood",
+        "hoeveelheid": "4 sneetjes zonder korst"
+      },
+      {
+        "naam": "harissa",
+        "hoeveelheid": "3 tl"
+      },
+      {
+        "naam": "ingemaakte citroen",
+        "hoeveelheid": "½, fijngesneden"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "4 el, fijngesneden"
+      },
+      {
+        "naam": "eieren",
+        "hoeveelheid": "1"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "1 dl, om in te bakken"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "1, in partjes"
+      }
+    ],
+    "bereiding": [
+      "Week de saffraan 5 min in een eetlepel heet water. Snijd de vis in stukjes.",
+      "Pureer de vis met het brood in de keukenmachine. Voeg harissa, ingemaakte citroen, koriander, de saffraan met het weekwater, het ei en zout en peper toe en meng kort tot een glad mengsel.",
+      "Verdeel het mengsel in 16 gelijke porties en vorm er met vochtige handen afgeplatte balletjes van.",
+      "Verhit de olie in een braadpan en bak de viskoekjes in ca. 8 min goudbruin en gaar; halverwege keren. Laat uitlekken op keukenpapier.",
+      "Serveer met de partjes limoen."
+    ],
+    "notities": "16 stuks. Ook lekker als voorgerecht of snack."
   }
 ]
