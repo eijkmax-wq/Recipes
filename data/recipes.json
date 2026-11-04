@@ -3295,5 +3295,272 @@
       "Serveer met de partjes limoen."
     ],
     "notities": "16 stuks. Ook lekker als voorgerecht of snack."
+  },
+  {
+    "id": "spicy-red-pesto-pasta",
+    "titel": "Pasta met pittige rode pesto",
+    "bron": "NYT Cooking (Spicy Red Pesto Pasta)",
+    "tijd": 30,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "160 ml + 1 el"
+      },
+      {
+        "naam": "zongedroogde tomaten",
+        "hoeveelheid": "100 g (op olie, uitgelekt)"
+      },
+      {
+        "naam": "walnoten",
+        "hoeveelheid": "70 g, grof gehakt"
+      },
+      {
+        "naam": "tomatenpuree",
+        "hoeveelheid": "3 el dubbelgeconcentreerd (of 80 g gewone)"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "geroosterde paprika",
+        "hoeveelheid": "115 g (uit pot, uitgelekt)"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "45 g, fijn geraspt + extra"
+      },
+      {
+        "naam": "rigatoni",
+        "hoeveelheid": "455 g (of orecchiette)"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "handje"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "rasp, om te serveren",
+        "optioneel": true
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Breng een grote pan water aan de kook.",
+      "Pestobasis: verhit 1 el olie in een grote koekenpan op middelhoog vuur. Bak de grof gehakte zongedroogde tomaten, walnoten, tomatenpuree, knoflook en chilivlokken met ½ tl zout en ½ tl peper ca. 5 min tot geroosterd en geurig. Schep in een kom en laat even afkoelen.",
+      "Doe de gehakte geroosterde paprika en parmezaan in een keukenmachine, voeg het afgekoelde tomatenmengsel en de rest van de olie (160 ml) toe en pulse tot een pasta. Dit levert ca. 2 kopjes pesto op.",
+      "Zout het kokende water royaal en kook de pasta al dente. Bewaar 355 ml kookwater en giet af.",
+      "Doe de pasta terug in de pan met ca. ¾ van de pesto en 240 ml kookwater. Roer stevig tot de pasta glanst en gelijkmatig bedekt is; extra pesto of kookwater naar behoefte. Breng op smaak met zout en peper.",
+      "Verdeel over kommen, bestrooi met parmezaan en gescheurde basilicum en eventueel wat citroenrasp. Direct serveren."
+    ],
+    "notities": "De pesto is ruim bemeten; wat overblijft is lekker op brood of bij geroosterde groenten."
+  },
+  {
+    "id": "kokos-miso-zalmcurry",
+    "titel": "Kokos-miso zalmcurry",
+    "bron": "NYT Cooking (Coconut-Miso Salmon Curry)",
+    "tijd": 25,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "vis",
+      "karakter": [
+        "comfort",
+        "fris"
+      ],
+      "gewicht": "licht"
+    },
+    "ingredienten": [
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "rode ui",
+        "hoeveelheid": "1 middelgrote"
+      },
+      {
+        "naam": "gember",
+        "hoeveelheid": "2,5 cm vers (ca. 2 el, fijngehakt)"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "3 tenen"
+      },
+      {
+        "naam": "witte miso",
+        "hoeveelheid": "60 g"
+      },
+      {
+        "naam": "kokosmelk",
+        "hoeveelheid": "120 ml (vol, uit blik)"
+      },
+      {
+        "naam": "zalmfilet",
+        "hoeveelheid": "680 g, in stukken van 5 cm"
+      },
+      {
+        "naam": "babyspinazie",
+        "hoeveelheid": "140 g"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "1 el sap + partjes om te serveren"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "4 el, gehakt"
+      },
+      {
+        "naam": "verse koriander",
+        "hoeveelheid": "4 el, gehakt"
+      },
+      {
+        "naam": "rijst",
+        "hoeveelheid": "om erbij te serveren (jasmijn of basmati)"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Verhit de olie in een grote pan op middelhoog vuur. Bak de gehalveerde, in dikke plakken gesneden ui met de gember en de dun gesneden knoflook, met zout en peper, ca. 3 min tot de ui zacht is.",
+      "Voeg de miso toe en bak al roerend ca. 2 min tot hij licht karamelliseert.",
+      "Voeg de kokosmelk en 710 ml water toe, breng op hoog vuur aan de kook en laat ca. 5 min iets inkoken.",
+      "Doe de zalm erbij, zet het vuur op middel-laag en laat ca. 5 min zachtjes garen tot de zalm net gaar is.",
+      "Vuur uit. Roer de spinazie en het limoensap erdoor.",
+      "Verdeel de rijst over kommen, schep de curry erop en bestrooi met basilicum en koriander. Serveer met partjes limoen."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "kiptagine-rabarber",
+    "titel": "Kiptagine met rabarber",
+    "bron": "NYT Cooking (Chicken Tagine With Rhubarb)",
+    "tijd": 75,
+    "porties": 5,
+    "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "comfort",
+        "fris"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "hele kip",
+        "hoeveelheid": "1,8–2 kg, in 10 stukken"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "2 el"
+      },
+      {
+        "naam": "ui",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "wortel",
+        "hoeveelheid": "1 middelgrote"
+      },
+      {
+        "naam": "prei",
+        "hoeveelheid": "2 (wit en lichtgroen)"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen"
+      },
+      {
+        "naam": "kurkuma",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "paprikapoeder",
+        "hoeveelheid": "1 tl (zoet)"
+      },
+      {
+        "naam": "kippenbouillon",
+        "hoeveelheid": "590 ml (of water)"
+      },
+      {
+        "naam": "kaneelstokje",
+        "hoeveelheid": "1 (ca. 8 cm)"
+      },
+      {
+        "naam": "suiker",
+        "hoeveelheid": "½ tl"
+      },
+      {
+        "naam": "groene olijven",
+        "hoeveelheid": "12–16, ontpit",
+        "optioneel": true
+      },
+      {
+        "naam": "rabarbersiroop",
+        "hoeveelheid": "1–2 el"
+      },
+      {
+        "naam": "gepocheerde rabarber",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peterselie",
+        "hoeveelheid": "15 g, gehakt"
+      },
+      {
+        "naam": "rijst",
+        "hoeveelheid": "om erbij te serveren (of couscous)"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Bestrooi de kip aan beide kanten met zout en peper. Verhit de olijfolie in een braadpan op middelhoog vuur en bak de kip in porties 3–4 min per kant goudbruin. Haal uit de pan.",
+      "Giet het vet af op 2 el na. Fruit de fijngesneden ui op middelhoog vuur 2–3 min en schraap de aanbaksels los. Voeg wortel in blokjes en gesneden prei toe en bak 3–4 min tot zacht. Knoflook erbij, 1 min, dan zout, kurkuma en paprikapoeder.",
+      "Doe de kip terug in de pan met bouillon, kaneelstokje, suiker en zout naar smaak. Aan de kook brengen, dan afgedekt 35 min zachtjes laten sudderen.",
+      "Voeg eventueel de olijven toe en laat afgedekt nog 15–20 min sudderen tot de kip heel mals is. Roer de rabarbersiroop erdoor en breng op smaak.",
+      "Roer vlak voor het serveren de peterselie en de gepocheerde rabarber erdoor en warm alles op laag vuur door. Proef nog een keer en serveer met rijst of couscous."
+    ],
+    "notities": "De gepocheerde rabarber en de siroop komen uit een apart recept dat ik niet kon terugvinden; vraag Claude er anders naar."
   }
 ]
