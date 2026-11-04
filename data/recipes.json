@@ -3562,5 +3562,321 @@
       "Roer vlak voor het serveren de peterselie en de gepocheerde rabarber erdoor en warm alles op laag vuur door. Proef nog een keer en serveer met rijst of couscous."
     ],
     "notities": "De gepocheerde rabarber en de siroop komen uit een apart recept dat ik niet kon terugvinden; vraag Claude er anders naar."
+  },
+  {
+    "id": "krokante-gnocchi-worst-broccoli",
+    "titel": "Krokante gnocchi met worst en broccoli",
+    "bron": "NYT Cooking (Crispy Gnocchi With Sausage and Broccoli)",
+    "tijd": 45,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vlees",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "gnocchi",
+        "hoeveelheid": "1 pak (ca. 500 g)"
+      },
+      {
+        "naam": "broccoli",
+        "hoeveelheid": "1 grote (ca. 450 g)"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "60 ml"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen, fijn geraspt"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "snufje",
+        "optioneel": true
+      },
+      {
+        "naam": "Italiaanse worst",
+        "hoeveelheid": "455 g, vel eraf (pittig of mild)"
+      },
+      {
+        "naam": "parmezaan",
+        "hoeveelheid": "25 g, geraspt + extra"
+      },
+      {
+        "naam": "citroen",
+        "hoeveelheid": "½"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Oven op 220 °C. Hussel op een bakplaat de gnocchi, de broccoliroosjes (in stukken van 4–5 cm) en de dun gesneden stelen met de olijfolie en knoflook. Breng op smaak met zout en eventueel chilivlokken en verdeel in één laag.",
+      "Knijp de worst in stukjes zo groot als de gnocchi en leg ze erbovenop. Rooster 20–25 min tot worst en broccoli goudbruin en krokant zijn.",
+      "Knijp de halve citroen erover (ca. 1½ el sap) en bestrooi met de parmezaan. Roer tot de kaas smelt.",
+      "Serveer met extra parmezaan en chilivlokken naar smaak."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "krokante-gnocchi-tomaten-mozzarella",
+    "titel": "Krokante gnocchi met gebarsten tomaatjes en mozzarella",
+    "bron": "NYT Cooking (Crispy Gnocchi With Burst Tomatoes and Mozzarella)",
+    "tijd": 25,
+    "porties": 4,
+    "tags": [
+      "vega"
+    ],
+    "kenmerken": {
+      "basis": "pasta",
+      "eiwit": "vega",
+      "karakter": [
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "2 el + extra"
+      },
+      {
+        "naam": "gnocchi",
+        "hoeveelheid": "2 pakken (ca. 680 g)"
+      },
+      {
+        "naam": "boter",
+        "hoeveelheid": "55 g"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "4 tenen, dun gesneden"
+      },
+      {
+        "naam": "chilivlokken",
+        "hoeveelheid": "¼ tl + extra"
+      },
+      {
+        "naam": "cherrytomaten",
+        "hoeveelheid": "600 g"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "4 el, gescheurd + extra"
+      },
+      {
+        "naam": "mozzarella",
+        "hoeveelheid": "225 g, in stukjes"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "1½ tl"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Zet de grill aan met een rooster ca. 15 cm onder het element.",
+      "Verhit in een koekenpan van 30 cm op middelhoog vuur een dun laagje olie. Bak de helft van de gnocchi afgedekt en zonder roeren 2–4 min tot ze aan één kant goudbruin zijn. Schep in een kom en herhaal met de rest.",
+      "Laat in dezelfde pan de boter 1–2 min bruin worden. Voeg knoflook, chilivlokken, 1½ tl zout en peper toe. Doe de tomaatjes en 3 el water erbij en kook 4–6 min tot ze zacht zijn en de saus iets indikt; druk ze plat als ze barsten.",
+      "Doe de gnocchi en 4 el basilicum terug in de pan, schep om en verdeel in een gelijke laag. Leg de mozzarella erop, besprenkel met olie en gril 2–4 min tot de kaas gesmolten is en plekjes bruin krijgt.",
+      "Afmaken met extra basilicum, chilivlokken en peper."
+    ],
+    "notities": ""
+  },
+  {
+    "id": "pittige-kippendijen-paddenstoelen",
+    "titel": "Pittige kippendijen met paddenstoelen uit één pan",
+    "bron": "NYT Cooking (One-Pan Spicy Chicken Thighs and Mushrooms)",
+    "tijd": 30,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "rijst",
+      "eiwit": "kip",
+      "karakter": [
+        "pittig",
+        "comfort"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "kippendijen",
+        "hoeveelheid": "680 g, zonder bot en vel"
+      },
+      {
+        "naam": "zonnebloemolie",
+        "hoeveelheid": "3 el"
+      },
+      {
+        "naam": "rode ui",
+        "hoeveelheid": "1 kleine"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "6 tenen, geplet"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "madame jeanette",
+        "hoeveelheid": "1 (of habanero), fijngehakt"
+      },
+      {
+        "naam": "ansjovis",
+        "hoeveelheid": "8–10 filets op olie"
+      },
+      {
+        "naam": "witte miso",
+        "hoeveelheid": "2 el (of rode)"
+      },
+      {
+        "naam": "gemengde paddenstoelen",
+        "hoeveelheid": "340 g"
+      },
+      {
+        "naam": "geroosterde paprika",
+        "hoeveelheid": "1 pot (455 g), uitgelekt en gehakt"
+      },
+      {
+        "naam": "kippenbouillon",
+        "hoeveelheid": "240 ml (of water)"
+      },
+      {
+        "naam": "basilicum",
+        "hoeveelheid": "4 el, gehakt + blaadjes",
+        "optioneel": true
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "1, in partjes"
+      },
+      {
+        "naam": "rijst",
+        "hoeveelheid": "om erbij te serveren"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      },
+      {
+        "naam": "peper",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Dep de kip droog en bestrooi licht met zout en peper.",
+      "Verhit een grote (gietijzeren) koekenpan op hoog vuur met 1 el olie. Leg de kip met de gladde kant naar beneden en bak zonder bewegen 7–9 min tot diep goudbruin. Keer en bak nog ca. 1 min. Leg op een bord met de bruine kant naar boven.",
+      "Zet het vuur op middelhoog. Voeg de rest van de olie toe, dan ui, knoflook, komijn, peper, ansjovis en miso. Bak ca. 4 min tot de ui zacht is, de miso uit elkaar valt en de ansjovis oplost.",
+      "Vuur hoog. Roer de paddenstoelen en paprika erdoor en bak tot de paddenstoelen zacht zijn en vocht loslaten.",
+      "Voeg de bouillon toe en kook ca. 10 min tot het vocht zich in het midden van de pan verzamelt. Breng op smaak met zout en peper.",
+      "Maak met een houten lepel kuiltjes in de saus en leg de kip erin, bruine kant boven. Gaar ca. 3 min tot de kip gaar is; schenk er wat water bij als de saus te droog wordt.",
+      "Bestrooi met basilicum en serveer direct op rijst, met partjes limoen."
+    ],
+    "notities": "NYT noemt in de beschrijving ook azijn; die stond niet in de versie die ik vond."
+  },
+  {
+    "id": "kip-harissa-dadels-sinaasappel",
+    "titel": "Gebakken kip met harissa, dadels en sinaasappel",
+    "bron": "NYT Cooking (Pan-Seared Chicken With Harissa, Dates and Citrus)",
+    "tijd": 40,
+    "porties": 4,
+    "tags": [],
+    "kenmerken": {
+      "basis": "groente",
+      "eiwit": "kip",
+      "karakter": [
+        "pittig",
+        "fris"
+      ],
+      "gewicht": "zwaar"
+    },
+    "ingredienten": [
+      {
+        "naam": "sinaasappel",
+        "hoeveelheid": "1–2 navel (schil + 240 ml sap)"
+      },
+      {
+        "naam": "harissa",
+        "hoeveelheid": "60 g"
+      },
+      {
+        "naam": "honing",
+        "hoeveelheid": "1 el"
+      },
+      {
+        "naam": "komijn",
+        "hoeveelheid": "1 tl"
+      },
+      {
+        "naam": "knoflook",
+        "hoeveelheid": "2 tenen, geplet"
+      },
+      {
+        "naam": "olijfolie",
+        "hoeveelheid": "4 el"
+      },
+      {
+        "naam": "kippendijen",
+        "hoeveelheid": "8 kleine, met bot en vel (1,1–1,4 kg)"
+      },
+      {
+        "naam": "sjalot",
+        "hoeveelheid": "6 hele, in vieren"
+      },
+      {
+        "naam": "dadels",
+        "hoeveelheid": "150 g medjool, ontpit en gehalveerd"
+      },
+      {
+        "naam": "lente-ui",
+        "hoeveelheid": "1 bos, in stukken van 4 cm"
+      },
+      {
+        "naam": "kippenbouillon",
+        "hoeveelheid": "240 ml"
+      },
+      {
+        "naam": "limoen",
+        "hoeveelheid": "2 el sap"
+      },
+      {
+        "naam": "Griekse yoghurt",
+        "hoeveelheid": "4 el (of labne)"
+      },
+      {
+        "naam": "dille",
+        "hoeveelheid": "4 el, gehakt"
+      },
+      {
+        "naam": "zout",
+        "hoeveelheid": "naar smaak"
+      }
+    ],
+    "bereiding": [
+      "Schil de sinaasappel met een dunschiller in repen en houd de schil apart. Pers er 240 ml sap uit.",
+      "Marinade: klop harissa, honing, komijn, knoflook, 1 el olijfolie en 60 ml sinaasappelsap door elkaar.",
+      "Dep de kip droog, bestrooi beide kanten royaal met zout en bedek met de marinade. Kan tot 24 uur in de koelkast.",
+      "Verhit 2 el olijfolie in een grote koekenpan op middelhoog vuur. Bak de sjalotten, dadels en sinaasappelschil met wat zout ca. 5 min tot de sjalotten plekjes bruin krijgen en de dadels karamelliseren.",
+      "Voeg de lente-ui toe en bak ca. 1 min. Schep alles op een bord.",
+      "Doe de laatste 1 el olie in de pan. Leg de kip met het vel naar beneden op middelhoog vuur en schenk de achtergebleven marinade erbij. Bak ca. 6 min goudbruin, keer en bak de andere kant 1–2 min.",
+      "Voeg de bouillon en de rest van het sinaasappelsap (180 ml) toe. Aan de kook brengen, dan vuur op middel-laag.",
+      "Laat 15–18 min sudderen tot het vocht gehalveerd is en de kip gaar en mals is. Doe het sjalotmengsel terug in de pan en schep om.",
+      "Voeg het limoensap toe en kook nog 3–4 min. Proef en voeg zo nodig zout toe.",
+      "Serveer met dotjes yoghurt en bestrooi met dille."
+    ],
+    "notities": "Marineren kan vooruit, tot 24 uur in de koelkast."
   }
 ]
